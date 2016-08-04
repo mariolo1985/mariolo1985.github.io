@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Mario Lo - Github Setup</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='css/gitsetup.css' rel='stylesheet' />
+</head>
+
+<body>
+    <div class='instructions-wrapper'>
+        <h1>Github Setup</h1>
+        <ol class='git-setup-list'>
+            <li>
+                Create an account on <a href='https://github.com'>Github</a 
+            </li>
+            <li>Download the Git command line tool
+                <ul>
+                    <li>
+                        <a href='https://git-scm.com/downloads'>Click Here For Download Page</a>
+            </li>
+            </ul>
+            </li>
+            <li>Create a new folder on your local machine</li>
+            <li>Open the terminal on MAC or Run 'cmd' on Windows</li>
+            <li>Navigate to the folder you created earlier
+                <textarea readonly class='text-cmd'>
+ls *displays available folder*
+
+cd [folder name]
+                        </textarea>
+            </li>
+            <li>Create a new repository on github&#39;s webpage</li>
+            <li>Clone the repository
+                <ul>
+                    <li>Go to your repository on the webpage</li>
+                    <li>Click the <button class='btn-clone'>Clone or download</button> button on the page</li>
+                    <li>Copy the URL</li>
+                    <li>Inside the terminal type the following command and hit ENTER
+                        <textarea readonly class='text-cmd'>
+git clone [repo url]
+                        </textarea>
+                    </li>
+                    <li>A new folder with your repo will be created and you are now ready for versioning.</li>
+                </ul>
+
+            </li>
+        </ol>
+
+        <h1>Committing Changes</h1>
+        <ol class='git-setup-list'>
+            <li>Open the terminal on MAC or Run 'cmd' on Windows</li>
+            <li>
+                <p class='note'>*First Time setup*</p>
+                <textarea readonly class='text-cmd'>
+git config --global user.name "your username"
+git config --global user.email your@email.com
+                </textarea>
+            </li>
+            <li>Run a Git Status to verify changes
+                <textarea readonly class='text-cmd'>
+git status
+                </textarea>
+            </li>
+            <li>Add your files for commit. The file name is case-sensitive.
+                <textarea readonly class='text-cmd'>
+git add <file>
+                </textarea>
+            </li>
+            <li>Add a commit message. Usually a helpful note on what was updated
+                <textarea readonly class='text-cmd'>
+git commit -m "Your commit message here"
+                        </textarea>
+            </li>
+            <li>You can also use the text editor in MAC terminal
+                <textarea readonly class='text-cmd'>
+git commit
+                        </textarea>
+            </li>
+            <li>Push your changes to git
+                <textarea readonly class='text-cmd'>
+git push
+                </textarea>
+            </li>
+            <li>Check your repo on the webpage to ensure your changes were committed successfully</li>
+        </ol>
+    </div>
+</body>
+
+</html>

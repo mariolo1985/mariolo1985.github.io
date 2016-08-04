@@ -1,0 +1,43 @@
+body{
+    font-size: 18px;
+    background-color:#f9fafb;
+}
+
+.instructions-wrapper{
+    width: 75%;
+    margin: 0 auto;
+}
+.note{
+    font-weight:bold;
+}
+/* btn */
+.btn-clone{
+    background-color: #569e3d;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 3px;
+    border-color: #418737;
+    outline:none;
+}
+/* cmd */
+.text-cmd{
+    background-color: #000000;
+    color: #00ff00;
+    font-size: 14px;
+    resize: none;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    outline:none;
+    overflow:hidden;
+}
+/* list */
+.no-list-style{
+    list-style: none;
+    padding: 0;
+}
+.git-setup-list li{
+    margin: 15px 0;
+}
