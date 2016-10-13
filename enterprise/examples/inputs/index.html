@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Enterprise Inputs</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+
+    <link rel='stylesheet' href='../fonts/fontawesome/css/font-awesome.css'/>
+    <link rel='stylesheet' href='../css/master.min.css' />
+
+	<style>
+		.input-container {
+			margin: 30px 0;
+		}
+		
+		label {
+			display: block;
+		}
+	</style>
+</head>
+
+<body>
+	<section class='section-content'>
+		<h1>Form Fields</h1>
+		<div class='input-container'>
+			<label>Default</label>
+			<input type='text' placeholder='Default with Hint' />
+		</div>
+		<div class='input-container'>
+			<label>Disabled</label>
+			<input type='text' disabled placeholder='Disabled with Hint' />
+		</div>
+		<div class='input-container'>
+			<label>Error</label>
+			<input type='text' class='error' placeholder='Wrong Input' />
+		</div>
+		<div class='input-container'>
+			<label>Selected</label>
+			<input type='text' class='selected' placeholder='Text Option Selected' />
+		</div>
+
+		<h1>Toggles</h1>
+		<h3>Checkbox</h3>
+		<div class='input-container'>
+			<div id='myCheckbox1'></div>
+		</div>
+		<div class='input-container'>
+			<div id='myCheckbox2'></div>
+		</div>
+		<h3>Toggle</h3>
+		<!-- .slideThree -->
+		<div id='mySwitch1'></div>
+		<!-- end .slideThree -->		
+
+		<h1>+ / -</h1>
+		<div id='myToggleplus'></div>
+	</section>
+
+
+	<script src='js/input_bundle.js'></script>
+</body>
+
+</html>
