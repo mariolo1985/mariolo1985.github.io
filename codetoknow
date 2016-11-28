@@ -1,0 +1,10 @@
+- Do not calc length in loop. Calc length first
+
+BAD: 
+for (var i = 0; i<something.length() ; i++){
+
+}
+
+GOOD:
+var arrLen = arr.length();
+for (var i = 0; i < arrLen; i++){}
