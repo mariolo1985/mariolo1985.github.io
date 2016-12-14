@@ -1,5 +1,11 @@
 # MY GOOD THINGS LIST
 
+## HTML
+### Redirect tag
+```
+<meta http-equiv="refresh" content="3;url=http://rambo.overstock.com/styleguide">
+```
+
 ## JAVASCRIPT
 ### Do not calc length for comparsion in for/while loops. Calc length first.
 
