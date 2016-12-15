@@ -51,19 +51,30 @@ $INSERTQUERY = 'INSERT INTO ELEMENT_TABLE (ELEMENT_ID) VALUES ('THIS_ID') ON DUP
 
 ## WEB SERVER
 
-### Deciding on image type
+### Render Blocking JS
+
+#### Make JavaScript Asynchronous
+By default JavaScript blocks DOM construction and thus delays the time to first render. To prevent JavaScript from blocking the parser we recommend using the HTML async attribute on external scripts. For example:
+
+```
+<script async src="my.js">
 ```
 
-    Do you need animation? If so, GIF is the only universal choice.
+See Parser Blocking vs. Asynchronous JavaScript to learn more about asynchronous scripts. Note that asynchronous scripts are not guaranteed to execute in specified order and should not use document.write. Scripts that depend on execution order or need to access or modify the DOM or CSSOM of the page may need to be rewritten to account for these constraints.
+#### Defer loading of JavaScript
+The loading and execution of scripts that are not necessary for the initial page render may be deferred until after the initial render or other critical parts of the page have finished loading. Doing so can help reduce resource contention and improve performance. 
+
+
+### Deciding on image type
+#### Do you need animation? If so, GIF is the only universal choice.
         GIF limits the color palette to at most 256 colors, which makes it a poor choice for most images. Further, PNG-8 delivers better compression for images with a small palette. As a result, GIF is the right answer only when animation is required.
-    Do you need to preserve fine detail with highest resolution? Use PNG.
+#### Do you need to preserve fine detail with highest resolution? Use PNG.
         PNG does not apply any lossy compression algorithms beyond the choice of the size of the color palette. As a result, it will produce the highest quality image, but at a cost of significantly higher filesize than other formats. Use judiciously.
         If the image asset contains imagery composed of geometric shapes, consider converting it to a vector (SVG) format!
         If the image asset contains text, stop and reconsider. Text in images is not selectable, searchable, or "zoomable". If you need to convey a custom look (for branding or other reasons), use a web font instead.
-    Are you optimizing a photo, screenshot, or a similar image asset? Use JPEG.
+#### Are you optimizing a photo, screenshot, or a similar image asset? Use JPEG.
         JPEG uses a combination of lossy and lossless optimization to reduce filesize of the image asset. Try several JPEG quality levels to find the best quality vs. filesize tradeoff for your asset.
 
-```
 ### Expiration in .htaccess
 ```
 <IfModule mod_mime.c>
