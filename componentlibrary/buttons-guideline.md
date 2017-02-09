@@ -43,7 +43,7 @@ These buttons will be classed as ```os-btn```
 
 #### React Component Options
 
-**Prop Types**
+**Props**
 
 | Attribute | Type | Default Value | Required | Description |
 |------|----|---|---|---|
@@ -51,10 +51,33 @@ These buttons will be classed as ```os-btn```
 |disabled| bool | false | No | Disables the button if set to true|
 |size|string|btn-md| No | Preset size of the button|
 |type|string|btn-primary| No | Handles the type or color style of the button|
+|className|string|N/A|No|Appends onto the default button classes|
+
+**React Code**
+
+```js
+    <Button size="btn-lg" type="btn-success" className="btn-unique" onClick={this.testClick}>Hello World</Button>
+
+    <Button size="btn-lg">Default Button</Button>
+    <Button>Default Button</Button>
+    <Button size="btn-sm">Default</Button>
+    <Button size="btn-xs">Default</Button>
+
+    <Button size="btn-lg" type="btn-primary">Primary Button</Button>
+    <Button type="btn-primary">Primary Button</Button>
+    <Button size="btn-sm" type="btn-primary">Primary</Button>
+    <Button size="btn-xs" type="btn-primary">Primary</Button>
+
+    <Button size="btn-lg" type="btn-success">Success Button</Button>
+    <Button size="btn-md" type="btn-success">Success Button</Button>
+    <Button size="btn-sm" type="btn-success">Success</Button>
+    <Button size="btn-xs" type="btn-success">Success</Button>
+```
 
 
 #### Code
 
+**HTML**
 ```html
     <button class='os-btn btn-lg'>Large Button</button>
     <button class='os-btn'>Medium Button</button>
@@ -62,6 +85,7 @@ These buttons will be classed as ```os-btn```
     <button class='os-btn btn-xs'>Extra</button>
 ```
 
+**LESS**
 ```css
     .os-btn {
         position: relative;
