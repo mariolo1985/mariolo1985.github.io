@@ -128,7 +128,7 @@ These buttons will be classed as ```os-btn btn-success```
     // SUCCESS
     &.btn-success {
         background-color: @sg_colorBtnSuccess;
-        color: @sg_colorWhite;
+        color: @sg_colorBtnSuccessText;
         &:hover,
         &.hover {
             background-color: @sg_colorBtnSuccessHover;
@@ -142,3 +142,38 @@ These buttons will be classed as ```os-btn btn-success```
 ```
 
 # Secondary Buttons
+
+#### Button Colors
+|Class | Background | Color | Border |
+|------|------------|-------|--------|
+|os-btn | #F5F6F7 | #545658 | none |
+|os-btn btn-secondary | #0272A2 | #FFFFFF | none |
+|os-btn btn-secondary-light | #27AE60 | #FFFFFF | none |
+
+
+## Secondary Default Button
+
+This button will be classed ```os-btn btn-secondary```
+
+#### Code 
+
+```less
+.os-btn{
+    // SECONDARY
+    &.btn-secondary {
+        background-color: @sg_colorBtnSecondary;
+        color: @sg_colorBtnSecondaryText;
+        border: 1px solid @sg_colorBtnSecondaryBrd;
+        &:hover,
+        &.hover {
+            background-color: @sg_colorBtnSecondaryHover;
+            box-shadow: none;
+        }
+        &:active,
+        &.os-btn-icon:active {
+            background-color: @sg_colorBtnSecondaryPress;
+        }
+    }
+}
+```
+
