@@ -6,7 +6,7 @@ Visual reference available at [Styleguide - Buttons Page](www.overstock.com/styl
 
 ### Default
 
-```
+```javascript
     <button class='os-btn btn-lg'>Large Button</button>
     <button class='os-btn'>Medium Button</button>
     <button class='os-btn btn-sm'>Small</button>
