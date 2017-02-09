@@ -20,8 +20,22 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 >- Marketing Buttons
 
 # Buttons Overview
-|Name|Class|Height|Mobile Width (@544px)|Background|Color|Border|Font Size|
+|Name|Class|Height|Mobile Width (@544px)|Font Size|Background|Color|Border|
 |---|---|---|---|---|---|---|---|
+|Default Button|os-btn|34px | 50% | 13px|#F5F6F7 | #545658 | none |
+|Button Extra Small|os-btn btn-xs|22px | 15% | 11px|#F5F6F7 | #545658 | none |
+|Button Small|os-btn btn-sm| 30px | 20% | 12px|#F5F6F7 | #545658 | none |
+|Button Large|os-btn btn-lg|44px | 100% | 16px|#F5F6F7 | #545658 | none |
+|Primary Button|os-btn btn-primary|34px | 50% | 13px| #0272A2 | #FFFFFF | none |
+|Primary Button Extra Small|os-btn btn-primary btn-xs|22px | 15% | 11px| #0272A2 | #FFFFFF | none |
+|Primary Button Small|os-btn btn-primary btn-sm| 30px | 20% | 12px| #0272A2 | #FFFFFF | none |
+|Primary Button Large|os-btn btn-primary btn-lg|44px | 100% | 16px| #0272A2 | #FFFFFF | none |
+|Success Button|os-btn btn-success|34px | 50% | 13px|#27AE60 | #FFFFFF | none |
+|Success Button Extra Small|os-btn btn-success btn-xs|22px | 15% | 11px|#27AE60 | #FFFFFF | none |
+|Success Button Small |os-btn btn-success btn-sm| 30px | 20% | 12px|#27AE60 | #FFFFFF | none |
+|Success Button Large|os-btn btn-success btn-lg|44px | 100% | 16px|#27AE60 | #FFFFFF | none |
+
+
 
 # Primary
 
