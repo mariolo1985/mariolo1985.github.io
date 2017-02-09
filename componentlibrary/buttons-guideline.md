@@ -209,8 +209,8 @@ This button will be classed ```os-btn btn-secondary```
     }
 }
 ```
-[color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)
-[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)
+[[secondary color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)]
+[[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)]
 
 
 ## Secondary Light Button
@@ -236,8 +236,8 @@ This button will be classed ```os-btn btn-secondary-light```
     }
 }
 ```
-[color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)
-[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)
+[[secondary color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)]
+[[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)]
 
 ## Danger Light Button
 
@@ -259,8 +259,8 @@ This button will be classed ```os-btn btn-danger-light```
     }
 }
 ```
-[color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)
-[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)
+[[secondary color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)]
+[[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)]
 
 ## Link Button
 
@@ -287,5 +287,5 @@ This button will be classed ```os-btn btn-link```
     }
 }
 ```
-[color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)
-[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)
+[[secondary color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)]
+[[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)]
