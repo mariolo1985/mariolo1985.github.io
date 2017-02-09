@@ -12,11 +12,12 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 |os-btn btn-success | #27AE60 | #FFFFFF | none | 13px | 13px |
 
 ### Button Size
-|Class | Background | Color | Border | Height | Font-Size|
-|os-btn | #F5F6F7 | #545658 | none | 34px | 13px|
-|os-btn btn-xs | #F5F6F7 | #545658 | none | 22px | 11px|
-|os-btn btn-sm | #F5F6F7 | #545658 | none | 30px | 12px|
-|os-btn btn-lg | #F5F6F7 | #545658 | none | 44px | 16px |
+|Class | Height | Font-Size|
+|------|------------|-------
+|os-btn | 34px | 13px|
+|os-btn btn-xs | 22px | 11px|
+|os-btn btn-sm | 30px | 12px|
+|os-btn btn-lg | 44px | 16px|
 
 ### Default Button
 
