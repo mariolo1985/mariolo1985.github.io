@@ -1,6 +1,6 @@
 # Buttons Guidelines
 
-Visual reference available at [Styleguide - Buttons Page](www.overstock.com/styleguide/buttons.html)
+Visual reference available at [Styleguide - Buttons Page](https://www.overstock.com/styleguide/buttons.html)
 
 ## Primary Buttons
 
@@ -11,4 +11,22 @@ Visual reference available at [Styleguide - Buttons Page](www.overstock.com/styl
     <button class='os-btn'>Medium Button</button>
     <button class='os-btn btn-sm'>Small</button>
     <button class='os-btn btn-xs'>Extra</button>
+```
+
+```javascript
+    .os-btn {
+        position: relative;
+        background-color: @sg_colorBtn;
+        color: @sg_colorBtnText;
+        font-family: @default-font;
+        font-size: 13px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        height: 34px;
+        border: none;
+        border-radius: 3px;
+        padding: 0px 15px;
+        cursor: pointer;
+        outline: none;
+    }
 ```
