@@ -87,6 +87,7 @@ These buttons will be classed as ```os-btn```
     }
 }
 ```
+[color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)
 [back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)
 
 ## Primary Button
@@ -124,6 +125,7 @@ These buttons will be classed as ```os-btn btn-primary```
     }
 }
 ```
+[color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)
 [back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)
 
 ## Success Button
@@ -160,6 +162,7 @@ These buttons will be classed as ```os-btn btn-success```
     }
 }
 ```
+[color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)
 [back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)
 
 # Secondary
@@ -167,7 +170,7 @@ These buttons will be classed as ```os-btn btn-success```
 #### Button Colors
 |Class | Background | Color | Border |
 |------|------------|-------|--------|
-|os-btn btn-secondary | #0272A2 | ##545658 | 1px solid #CED1D5 |
+|os-btn btn-secondary | #0272A2 | #545658 | 1px solid #CED1D5 |
 |os-btn btn-secondary-light | #27AE60 | #545658 | 1px solid #CED1D5 |
 |os-btn btn-danger-light | #FFFFFF | #AC1B25 | 1px solid #CED1D5 |
 |os-btn btn-link | #FFFFFF | #0272A2 | none |
@@ -206,6 +209,7 @@ This button will be classed ```os-btn btn-secondary```
     }
 }
 ```
+[color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)
 [back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)
 
 
@@ -232,6 +236,7 @@ This button will be classed ```os-btn btn-secondary-light```
     }
 }
 ```
+[color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)
 [back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)
 
 ## Danger Light Button
@@ -254,6 +259,7 @@ This button will be classed ```os-btn btn-danger-light```
     }
 }
 ```
+[color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)
 [back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)
 
 ## Link Button
@@ -281,4 +287,5 @@ This button will be classed ```os-btn btn-link```
     }
 }
 ```
+[color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)
 [back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)
