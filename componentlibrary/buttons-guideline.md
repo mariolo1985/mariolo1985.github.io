@@ -2,16 +2,16 @@
 
 Visual reference available at [Styleguide - Buttons Page](https://www.overstock.com/styleguide/buttons.html)
 
-## Primary Buttons
+# Primary Buttons
 
-### Button Colors
-|Class | Background | Color | Border | Height | Font-Size|
-|------|------------|-------|--------|--------|----------|
-|os-btn | #F5F6F7 | #545658 | none | 34px | 13px|
-|os-btn btn-primary | #0272A2 | #FFFFFF | none | 34px | 13px |
-|os-btn btn-success | #27AE60 | #FFFFFF | none | 13px | 13px |
+#### Button Colors
+|Class | Background | Color | Border |
+|------|------------|-------|--------|
+|os-btn | #F5F6F7 | #545658 | none |
+|os-btn btn-primary | #0272A2 | #FFFFFF | none |
+|os-btn btn-success | #27AE60 | #FFFFFF | none |
 
-### Button Size
+#### Button Size
 |Class | Height | Font-Size|
 |------|------------|-------|
 |os-btn | 34px | 13px|
@@ -19,7 +19,7 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 |os-btn btn-sm | 30px | 12px|
 |os-btn btn-lg | 44px | 16px|
 
-### Default Button
+## Default Button
 
 These buttons will be classed as ```os-btn```
 
@@ -71,7 +71,7 @@ These buttons will be classed as ```os-btn```
 ```
 
 
-### Primary
+## Primary
 
 These buttons will be classed as ```os-btn btn-primary```
 
@@ -106,7 +106,7 @@ These buttons will be classed as ```os-btn btn-primary```
 }
 ```
 
-### Success
+## Success
 
 These buttons will be classed as ```os-btn btn-success```
 
@@ -140,3 +140,5 @@ These buttons will be classed as ```os-btn btn-success```
     }
 }
 ```
+
+# Secondary Buttons
