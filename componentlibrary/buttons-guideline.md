@@ -19,7 +19,10 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 >
 >- Marketing Buttons
 
-    
+# Buttons Overview
+|Name|Class|Height|Mobile Width (@544px)|Background|Color|Border|Font Size|
+|---|---|---|---|---|---|---|---|
+
 # Primary
 
 #### Button Colors
@@ -56,6 +59,8 @@ These buttons will be classed as ```os-btn```
 **React Code**
 
 ```js
+    import {Button} from 'component-library';
+
     <Button size="btn-lg" type="btn-success" className="btn-unique" onClick={this.testClick}>
         Hello World
     </Button>
