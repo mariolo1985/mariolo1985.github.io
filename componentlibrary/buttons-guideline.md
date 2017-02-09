@@ -2,6 +2,17 @@
 
 Visual reference available at [Styleguide - Buttons Page](https://www.overstock.com/styleguide/buttons.html)
 
+Table of Contents:
+1. Primary Buttons
+    1. [Default Button Colors]()
+    2. [Default Button Sizes]()
+    3. [Default Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#default-button)
+    4. [Primary Button]()
+    5. [Success Button]()
+2. Secondary Buttons 
+    - [Secondary Default Button]()
+    - [Secondary Light BUtton]()
+    -
 # Primary Buttons
 
 #### Button Colors
@@ -157,7 +168,14 @@ This button will be classed ```os-btn btn-secondary```
 
 #### Code 
 
-```less
+```html
+    <button class='os-btn btn-secondary btn-lg'>Large Button</button>
+    <button class='os-btn btn-secondary'>Medium Button</button>
+    <button class='os-btn btn-secondary btn-sm'>Small</button>
+    <button class='os-btn btn-secondary btn-xs'>Extra</button>
+```
+
+```css
 .os-btn{
     // SECONDARY
     &.btn-secondary {
@@ -176,4 +194,6 @@ This button will be classed ```os-btn btn-secondary```
     }
 }
 ```
+
+## Secondary Light Button
 
