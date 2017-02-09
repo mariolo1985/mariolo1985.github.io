@@ -4,7 +4,18 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 
 ## Primary Buttons
 
+Class | Background | Color | Border | Height | Font-Size
+os-btn | #F5F6F7 | ##545658 | none | 34px | 13px
+
 ### Default
+
+These buttons will be classed as ```os-btn```
+
+#### React Options
+
+Type | 
+
+#### Code
 
 ```html
     <button class='os-btn btn-lg'>Large Button</button>
