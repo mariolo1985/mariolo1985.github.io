@@ -3,15 +3,15 @@
 Visual reference available at [Styleguide - Buttons Page](https://www.overstock.com/styleguide/buttons.html)
 
 Table of Contents:
-1. Primary Buttons
-    ⋅⋅- [Default Button Colors]()
-    ⋅⋅- [Default Button Sizes]()
-    ⋅⋅- [Default Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#default-button)
-    ⋅⋅- [Primary Button]()
-    ⋅⋅- [Success Button]()
-2. Secondary Buttons 
-    ⋅⋅- [Secondary Default Button]()
-    ⋅⋅- [Secondary Light BUtton]()
+- Primary Buttons
+    - [Default Button Colors]()
+    - [Default Button Sizes]()
+    - [Default Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#default-button)
+    - [Primary Button]()
+    - [Success Button]()
+- Secondary Buttons 
+    - [Secondary Default Button]()
+    - [Secondary Light BUtton]()
     
 # Primary Buttons
 
