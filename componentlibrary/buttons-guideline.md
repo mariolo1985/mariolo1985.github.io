@@ -30,12 +30,12 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 |os-btn btn-success | #27AE60 | #FFFFFF | none |
 
 #### Button Size
-|Class | Height | Font-Size|
-|------|------------|-------|
-|os-btn | 34px | 13px|
-|os-btn btn-xs | 22px | 11px|
-|os-btn btn-sm | 30px | 12px|
-|os-btn btn-lg | 44px | 16px|
+|Class | Height | Mobile Width (@544px) | Font-Size|
+|------|------------|---|------|
+|os-btn | 34px | 50% | 13px|
+|os-btn btn-xs | 22px | 15% | 11px|
+|os-btn btn-sm | 30px | 20% | 12px|
+|os-btn btn-lg | 44px | 100% | 16px|
 
 ## Default Button
 
