@@ -13,7 +13,7 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 
 ### Button Size
 |Class | Height | Font-Size|
-|------|------------|-------
+|------|------------|-------|
 |os-btn | 34px | 13px|
 |os-btn btn-xs | 22px | 11px|
 |os-btn btn-sm | 30px | 12px|
