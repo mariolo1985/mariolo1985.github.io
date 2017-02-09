@@ -13,8 +13,8 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 >- Secondary 
 >    - [Secondary Default Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#secondary-default-button)
 >    - [Secondary Light Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#secondary-light-button)
->    - [Danger Light]()
->    - [Link Button]()
+>    - [Danger Light](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#danger-light-button)
+>    - [Link Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#link-button)
 >    - [Secondary Button Colors](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)
 >
 >- Marketing Buttons
@@ -87,10 +87,10 @@ These buttons will be classed as ```os-btn```
     }
 }
 ```
-[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md)
+[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)
 
 ## Primary Button
-[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md)
+
 
 These buttons will be classed as ```os-btn btn-primary```
 
@@ -124,7 +124,7 @@ These buttons will be classed as ```os-btn btn-primary```
     }
 }
 ```
-[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md)
+[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)
 
 ## Success Button
 
@@ -160,7 +160,7 @@ These buttons will be classed as ```os-btn btn-success```
     }
 }
 ```
-[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md)
+[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)
 
 # Secondary
 
@@ -168,7 +168,10 @@ These buttons will be classed as ```os-btn btn-success```
 |Class | Background | Color | Border |
 |------|------------|-------|--------|
 |os-btn btn-secondary | #0272A2 | ##545658 | 1px solid #CED1D5 |
-|os-btn btn-secondary-light | #27AE60 | ##545658 | 1px solid #CED1D5 |
+|os-btn btn-secondary-light | #27AE60 | #545658 | 1px solid #CED1D5 |
+|os-btn btn-danger-light | #FFFFFF | #AC1B25 | 1px solid #CED1D5 |
+|os-btn btn-link | #FFFFFF | #0272A2 | none |
+
 
 
 ## Secondary Default Button
@@ -203,7 +206,7 @@ This button will be classed ```os-btn btn-secondary```
     }
 }
 ```
-[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md)
+[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)
 
 
 ## Secondary Light Button
@@ -229,5 +232,53 @@ This button will be classed ```os-btn btn-secondary-light```
     }
 }
 ```
-[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md)
+[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)
 
+## Danger Light Button
+
+This button will be classed ```os-btn btn-danger-light```
+
+#### Code 
+
+```html
+    <button class='os-btn btn-danger-light btn-lg'>Destructive Button</button>
+    <button class='os-btn btn-danger-light'>Destructive Button</button>
+```
+
+```css
+.os-btn{
+    &.btn-danger-light {
+        background-color: @sg_colorBtnDangerLightBtn;
+        color: @sg_colorBtnDangerLightText;
+        border: 1px solid @sg_colorBtnDangerLightBrd;
+    }
+}
+```
+[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)
+
+## Link Button
+
+This button will be classed ```os-btn btn-link```
+
+#### Code 
+
+```html
+    <button class='os-btn btn-link btn-lg'>Link Button</button>
+    <button class='os-btn btn-link'>Link Button</button>
+    <button class='os-btn btn-link btn-sm'>Link</button>
+    <button class='os-btn btn-link btn-xs'>Link</button>
+```
+
+```css
+.os-btn{
+    // LINK
+    &.btn-link {
+        background-color: @sg_colorWhite;
+        color: @sg_colorTextLink;
+        height: auto;
+        padding: 0;
+        box-shadow: none;
+    }
+}
+```
+[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)
