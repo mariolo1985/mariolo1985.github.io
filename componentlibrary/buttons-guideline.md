@@ -10,6 +10,11 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 |os-btn btn-xs | #F5F6F7 | #545658 | none | 22px | 11px|
 |os-btn btn-sm | #F5F6F7 | #545658 | none | 30px | 12px|
 |os-btn btn-lg | #F5F6F7 | #545658 | none | 44px | 16px |
+|os-btn btn-primary | #0272A2 | #FFFFFF | none | 34px | 13px |
+|os-btn btn-primary btn-xs | #0272A2 | #FFFFFF | none | 22px | 11px |
+|os-btn btn-primary btn-sm | #0272A2 | #FFFFFF | none | 30px | 12px |
+|os-btn btn-primary btn-lg | #0272A2 | #FFFFFF | none | 44px | 16px |
+
 ### Default
 
 These buttons will be classed as ```os-btn```
@@ -67,6 +72,41 @@ These buttons will be classed as ```os-btn```
         padding: 0px 20px;
         &.rounded {
             border-radius: 44px;
+        }
+    }
+}
+```
+
+### Primary
+
+These buttons will be classed as ```os-btn btn-primary```
+
+#### React Options
+
+
+
+#### Code
+
+```html
+    <button class='os-btn btn-primary btn-lg'>Large Button</button>
+    <button class='os-btn btn-primary'>Medium Button</button>
+    <button class='os-btn btn-primary btn-sm'>Small</button>
+    <button class='os-btn btn-primary btn-xs'>Extra</button>
+```
+
+```css
+.os-btn {
+    // PRIMARY BUTTON
+    &.btn-primary {
+        background-color: @sg_colorBtnPrimary;
+        color: @sg_colorBtnPrimaryText;
+        &:hover,
+        &.hover {
+            background-color: @sg_colorBtnPrimaryHover;
+            box-shadow: none;
+        }
+        &:active {
+            background-color: @sg_colorBtnPrimaryPress;
         }
     }
 }
