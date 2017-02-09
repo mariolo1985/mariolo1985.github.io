@@ -6,8 +6,10 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 
 |Class | Background | Color | Border | Height | Font-Size|
 |------|------------|-------|--------|--------|----------|
-|os-btn | #F5F6F7 | ##545658 | none | 34px | 13px|
-
+|os-btn | #F5F6F7 | #545658 | none | 34px | 13px|
+|os-btn btn-xs | #F5F6F7 | #545658 | none | 22px | 11px|
+|os-btn btn-sm | #F5F6F7 | #545658 | none | 30px | 12px|
+|os-btn btn-lg | #F5F6F7 | #545658 | none | 44px | 16px |
 ### Default
 
 These buttons will be classed as ```os-btn```
