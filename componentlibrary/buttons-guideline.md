@@ -3,17 +3,21 @@
 Visual reference available at [Styleguide - Buttons Page](https://www.overstock.com/styleguide/buttons.html)
 
 Table of Contents:
-- Primary Buttons
-    - [Default Button Colors]()
-    - [Default Button Sizes]()
+- Primary
+    - [Default Button Colors](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)
+    - [Default Button Sizes](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-size)
     - [Default Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#default-button)
     - [Primary Button]()
     - [Success Button]()
-- Secondary Buttons 
+- Secondary 
     - [Secondary Default Button]()
-    - [Secondary Light BUtton]()
+    - [Secondary Light Button]()
+    - [Danger Light]()
+    - [Link Button]()
+- Marketing Buttons
+
     
-# Primary Buttons
+# Primary
 
 #### Button Colors
 |Class | Background | Color | Border |
@@ -82,7 +86,7 @@ These buttons will be classed as ```os-btn```
 ```
 
 
-## Primary
+## Primary Button
 
 These buttons will be classed as ```os-btn btn-primary```
 
@@ -117,7 +121,7 @@ These buttons will be classed as ```os-btn btn-primary```
 }
 ```
 
-## Success
+## Success Button
 
 These buttons will be classed as ```os-btn btn-success```
 
@@ -152,7 +156,7 @@ These buttons will be classed as ```os-btn btn-success```
 }
 ```
 
-# Secondary Buttons
+# Secondary
 
 #### Button Colors
 |Class | Background | Color | Border |
@@ -197,3 +201,24 @@ This button will be classed ```os-btn btn-secondary```
 
 ## Secondary Light Button
 
+This button will be classed ```os-btn btn-secondary-light```
+
+#### Code 
+
+```html
+    <button class='os-btn btn-secondary-light btn-lg'>Large Button</button>
+    <button class='os-btn btn-secondary-light'>Medium Button</button>
+    <button class='os-btn btn-secondary-light btn-sm'>Small</button>
+    <button class='os-btn btn-secondary-light btn-xs'>Extra</button>
+```
+
+```css
+.os-btn{
+    // SECONDARY LIGHT
+    &.btn-secondary-light {
+        background-color: @sg_colorBtnSecondaryLight;
+        color: @sg_colorBtnSecondaryLightText;
+        border: 1px solid @sg_colorBtnSecondaryLightBrd;
+    }
+}
+```
