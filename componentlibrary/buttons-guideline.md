@@ -2,7 +2,7 @@
 
 Visual reference available at [Styleguide - Buttons Page](https://www.overstock.com/styleguide/buttons.html)
 
-Table of Contents:
+**Table of Contents:**
 >- Primary
 >    - [Default Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#default-button)
 >    - [Primary Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#primary-button)
@@ -87,9 +87,10 @@ These buttons will be classed as ```os-btn```
     }
 }
 ```
-
+[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md)
 
 ## Primary Button
+[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md)
 
 These buttons will be classed as ```os-btn btn-primary```
 
@@ -123,6 +124,7 @@ These buttons will be classed as ```os-btn btn-primary```
     }
 }
 ```
+[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md)
 
 ## Success Button
 
@@ -158,15 +160,15 @@ These buttons will be classed as ```os-btn btn-success```
     }
 }
 ```
+[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md)
 
 # Secondary
 
 #### Button Colors
 |Class | Background | Color | Border |
 |------|------------|-------|--------|
-|os-btn | #F5F6F7 | #545658 | none |
-|os-btn btn-secondary | #0272A2 | #FFFFFF | none |
-|os-btn btn-secondary-light | #27AE60 | #FFFFFF | 1px solid #CED1D5 |
+|os-btn btn-secondary | #0272A2 | ##545658 | 1px solid #CED1D5 |
+|os-btn btn-secondary-light | #27AE60 | ##545658 | 1px solid #CED1D5 |
 
 
 ## Secondary Default Button
@@ -201,6 +203,8 @@ This button will be classed ```os-btn btn-secondary```
     }
 }
 ```
+[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md)
+
 
 ## Secondary Light Button
 
@@ -225,3 +229,5 @@ This button will be classed ```os-btn btn-secondary-light```
     }
 }
 ```
+[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md)
+
