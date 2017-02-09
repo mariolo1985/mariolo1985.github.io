@@ -13,7 +13,7 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 >- Secondary 
 >    - [Secondary Default Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#secondary-default-button)
 >    - [Secondary Light Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#secondary-light-button)
->    - [Danger Light](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#danger-light-button)
+>    - [Danger Light Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#danger-light-button)
 >    - [Link Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#link-button)
 >    - [Secondary Button Colors](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)
 >
