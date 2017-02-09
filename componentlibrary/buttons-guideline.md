@@ -3,18 +3,21 @@
 Visual reference available at [Styleguide - Buttons Page](https://www.overstock.com/styleguide/buttons.html)
 
 Table of Contents:
-- Primary
-    - [Default Button Colors](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)
-    - [Default Button Sizes](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-size)
-    - [Default Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#default-button)
-    - [Primary Button]()
-    - [Success Button]()
-- Secondary 
-    - [Secondary Default Button]()
-    - [Secondary Light Button]()
-    - [Danger Light]()
-    - [Link Button]()
-- Marketing Buttons
+>- Primary
+>    - [Default Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#default-button)
+>    - [Primary Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#primary-button)
+>    - [Success Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#success-button)
+>    - [Default Button Colors](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)
+>    - [Default Button Sizes](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-size)
+>
+>- Secondary 
+>    - [Secondary Default Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#secondary-default-button)
+>    - [Secondary Light Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#secondary-light-button)
+>    - [Danger Light]()
+>    - [Link Button]()
+>    - [Secondary Button Colors](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)
+>
+>- Marketing Buttons
 
     
 # Primary
@@ -163,7 +166,7 @@ These buttons will be classed as ```os-btn btn-success```
 |------|------------|-------|--------|
 |os-btn | #F5F6F7 | #545658 | none |
 |os-btn btn-secondary | #0272A2 | #FFFFFF | none |
-|os-btn btn-secondary-light | #27AE60 | #FFFFFF | none |
+|os-btn btn-secondary-light | #27AE60 | #FFFFFF | 1px solid #CED1D5 |
 
 
 ## Secondary Default Button
