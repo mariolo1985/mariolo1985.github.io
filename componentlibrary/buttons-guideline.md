@@ -45,8 +45,8 @@ These buttons will be classed as ```os-btn```
 
 **Prop Types**
 
-|Attribute|Type| Default Value |Required|Description|
-|------|----|---|--|---|
+| Attribute | Type | Default Value | Required | Description |
+|------|----|---|---|---|
 |children| node | N/A |No | What will be displayed inside the button|
 |disabled| bool | false | No | Disables the button if set to true|
 |size|string|btn-md| No | Preset size of the button|
