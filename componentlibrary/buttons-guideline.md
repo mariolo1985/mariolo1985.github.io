@@ -55,37 +55,37 @@ These buttons will be classed as ```os-btn```
 ```
 
 ```css
-.os-btn {
-    position: relative;
-    background-color: @sg_colorBtn;
-    color: @sg_colorBtnText;
-    font-family: @default-font;
-    font-size: 13px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    height: 34px;
-    border: none;
-    border-radius: 3px;
-    padding: 0px 15px;
-    cursor: pointer;
-    outline: none;
+    .os-btn {
+        position: relative;
+        background-color: @sg_colorBtn;
+        color: @sg_colorBtnText;
+        font-family: @default-font;
+        font-size: 13px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        height: 34px;
+        border: none;
+        border-radius: 3px;
+        padding: 0px 15px;
+        cursor: pointer;
+        outline: none;
 
-    // SIZES
-    &.btn-xs {
-        font-size: 11px;
-        height: 22px;
-        padding: 0px 10px;
+        // SIZES
+        &.btn-xs {
+            font-size: 11px;
+            height: 22px;
+            padding: 0px 10px;
+        }
+        &.btn-sm {
+            font-size: 12px;
+            height: 30px;
+        }
+        &.btn-lg {
+            font-size: 16px;
+            height: 44px;
+            padding: 0px 20px;
+        }
     }
-    &.btn-sm {
-        font-size: 12px;
-        height: 30px;
-    }
-    &.btn-lg {
-        font-size: 16px;
-        height: 44px;
-        padding: 0px 20px;
-    }
-}
 ```
 [[primary color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)]
 [[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)]
@@ -109,21 +109,21 @@ These buttons will be classed as ```os-btn btn-primary```
 ```
 
 ```css
-.os-btn {
-    // PRIMARY BUTTON
-    &.btn-primary {
-        background-color: @sg_colorBtnPrimary;
-        color: @sg_colorBtnPrimaryText;
-        &:hover,
-        &.hover {
-            background-color: @sg_colorBtnPrimaryHover;
-            box-shadow: none;
-        }
-        &:active {
-            background-color: @sg_colorBtnPrimaryPress;
+    .os-btn {
+        // PRIMARY BUTTON
+        &.btn-primary {
+            background-color: @sg_colorBtnPrimary;
+            color: @sg_colorBtnPrimaryText;
+            &:hover,
+            &.hover {
+                background-color: @sg_colorBtnPrimaryHover;
+                box-shadow: none;
+            }
+            &:active {
+                background-color: @sg_colorBtnPrimaryPress;
+            }
         }
     }
-}
 ```
 [[primary color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)]
 [[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)]
@@ -146,21 +146,21 @@ These buttons will be classed as ```os-btn btn-success```
 ```
 
 ```css
-.os-btn {
-    // SUCCESS
-    &.btn-success {
-        background-color: @sg_colorBtnSuccess;
-        color: @sg_colorBtnSuccessText;
-        &:hover,
-        &.hover {
-            background-color: @sg_colorBtnSuccessHover;
-            box-shadow: none;
-        }
-        &:active {
-            background-color: @sg_colorBtnSuccessPress;
+    .os-btn {
+        // SUCCESS
+        &.btn-success {
+            background-color: @sg_colorBtnSuccess;
+            color: @sg_colorBtnSuccessText;
+            &:hover,
+            &.hover {
+                background-color: @sg_colorBtnSuccessHover;
+                box-shadow: none;
+            }
+            &:active {
+                background-color: @sg_colorBtnSuccessPress;
+            }
         }
     }
-}
 ```
 [[primary color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)]
 [[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)]
@@ -191,23 +191,23 @@ This button will be classed ```os-btn btn-secondary```
 ```
 
 ```css
-.os-btn{
-    // SECONDARY
-    &.btn-secondary {
-        background-color: @sg_colorBtnSecondary;
-        color: @sg_colorBtnSecondaryText;
-        border: 1px solid @sg_colorBtnSecondaryBrd;
-        &:hover,
-        &.hover {
-            background-color: @sg_colorBtnSecondaryHover;
-            box-shadow: none;
-        }
-        &:active,
-        &.os-btn-icon:active {
-            background-color: @sg_colorBtnSecondaryPress;
+    .os-btn{
+        // SECONDARY
+        &.btn-secondary {
+            background-color: @sg_colorBtnSecondary;
+            color: @sg_colorBtnSecondaryText;
+            border: 1px solid @sg_colorBtnSecondaryBrd;
+            &:hover,
+            &.hover {
+                background-color: @sg_colorBtnSecondaryHover;
+                box-shadow: none;
+            }
+            &:active,
+            &.os-btn-icon:active {
+                background-color: @sg_colorBtnSecondaryPress;
+            }
         }
     }
-}
 ```
 [[secondary color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)]
 [[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)]
@@ -227,14 +227,14 @@ This button will be classed ```os-btn btn-secondary-light```
 ```
 
 ```css
-.os-btn{
-    // SECONDARY LIGHT
-    &.btn-secondary-light {
-        background-color: @sg_colorBtnSecondaryLight;
-        color: @sg_colorBtnSecondaryLightText;
-        border: 1px solid @sg_colorBtnSecondaryLightBrd;
+    .os-btn{
+        // SECONDARY LIGHT
+        &.btn-secondary-light {
+            background-color: @sg_colorBtnSecondaryLight;
+            color: @sg_colorBtnSecondaryLightText;
+            border: 1px solid @sg_colorBtnSecondaryLightBrd;
+        }
     }
-}
 ```
 [[secondary color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)]
 [[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)]
@@ -251,13 +251,13 @@ This button will be classed ```os-btn btn-danger-light```
 ```
 
 ```css
-.os-btn{
-    &.btn-danger-light {
-        background-color: @sg_colorBtnDangerLightBtn;
-        color: @sg_colorBtnDangerLightText;
-        border: 1px solid @sg_colorBtnDangerLightBrd;
+    .os-btn{
+        &.btn-danger-light {
+            background-color: @sg_colorBtnDangerLightBtn;
+            color: @sg_colorBtnDangerLightText;
+            border: 1px solid @sg_colorBtnDangerLightBrd;
+        }
     }
-}
 ```
 [[secondary color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)]
 [[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)]
@@ -276,16 +276,16 @@ This button will be classed ```os-btn btn-link```
 ```
 
 ```css
-.os-btn{
-    // LINK
-    &.btn-link {
-        background-color: @sg_colorWhite;
-        color: @sg_colorTextLink;
-        height: auto;
-        padding: 0;
-        box-shadow: none;
+    .os-btn{
+        // LINK
+        &.btn-link {
+            background-color: @sg_colorWhite;
+            color: @sg_colorTextLink;
+            height: auto;
+            padding: 0;
+            box-shadow: none;
+        }
     }
-}
 ```
 [[secondary color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)]
 [[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)]
