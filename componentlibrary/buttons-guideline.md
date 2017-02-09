@@ -41,8 +41,16 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 
 These buttons will be classed as ```os-btn```
 
-#### React Options
+#### React Component Options
 
+**Prop Types**
+
+|Attribute|Type| Default Value |Required|Description|
+|------|----|---|--|---|
+|children| node | N/A |No | What will be displayed inside the button|
+|disabled| bool | false | No | Disables the button if set to true|
+|size|string|btn-md| No | Preset size of the button|
+|type|string|btn-primary| No | Handles the type or color style of the button|
 
 
 #### Code
