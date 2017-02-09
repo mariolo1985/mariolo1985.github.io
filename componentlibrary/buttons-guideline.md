@@ -14,6 +14,10 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 |os-btn btn-primary btn-xs | #0272A2 | #FFFFFF | none | 22px | 11px |
 |os-btn btn-primary btn-sm | #0272A2 | #FFFFFF | none | 30px | 12px |
 |os-btn btn-primary btn-lg | #0272A2 | #FFFFFF | none | 44px | 16px |
+|os-btn btn-success | #27AE60 | #FFFFFF | none | 13px | 13px |
+|os-btn btn-success | #27AE60 | #FFFFFF | none | 22px | 11px |
+|os-btn btn-success | #27AE60 | #FFFFFF | none | 30px | 12px |
+|os-btn btn-success | #27AE60 | #FFFFFF | none | 44px | 16px |
 
 ### Default
 
@@ -47,35 +51,25 @@ These buttons will be classed as ```os-btn```
     padding: 0px 15px;
     cursor: pointer;
     outline: none;
-    &.rounded {
-        border-radius: 34px;
-    }
+
     // SIZES
     &.btn-xs {
         font-size: 11px;
         height: 22px;
         padding: 0px 10px;
-        &.rounded {
-            border-radius: 22px;
-        }
     }
     &.btn-sm {
         font-size: 12px;
         height: 30px;
-        &.rounded {
-            border-radius: 30px;
-        }
     }
     &.btn-lg {
         font-size: 16px;
         height: 44px;
         padding: 0px 20px;
-        &.rounded {
-            border-radius: 44px;
-        }
     }
 }
 ```
+
 
 ### Primary
 
@@ -107,6 +101,41 @@ These buttons will be classed as ```os-btn btn-primary```
         }
         &:active {
             background-color: @sg_colorBtnPrimaryPress;
+        }
+    }
+}
+```
+
+### Success
+
+These buttons will be classed as ```os-btn btn-success```
+
+#### React Options
+
+
+
+#### Code
+
+```html
+    <button class='os-btn btn-success btn-lg'>Large Button</button>
+    <button class='os-btn btn-success'>Medium Button</button>
+    <button class='os-btn btn-success btn-sm'>Small</button>
+    <button class='os-btn btn-success btn-xs'>Extra</button>
+```
+
+```css
+.os-btn {
+    // SUCCESS
+    &.btn-success {
+        background-color: @sg_colorBtnSuccess;
+        color: @sg_colorWhite;
+        &:hover,
+        &.hover {
+            background-color: @sg_colorBtnSuccessHover;
+            box-shadow: none;
+        }
+        &:active {
+            background-color: @sg_colorBtnSuccessPress;
         }
     }
 }
