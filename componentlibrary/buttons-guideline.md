@@ -56,7 +56,9 @@ These buttons will be classed as ```os-btn```
 **React Code**
 
 ```js
-    <Button size="btn-lg" type="btn-success" className="btn-unique" onClick={this.testClick}>Hello World</Button>
+    <Button size="btn-lg" type="btn-success" className="btn-unique" onClick={this.testClick}>
+        Hello World
+    </Button>
 
     <Button size="btn-lg">Default Button</Button>
     <Button>Default Button</Button>
