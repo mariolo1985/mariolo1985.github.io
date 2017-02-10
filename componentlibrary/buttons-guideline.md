@@ -23,9 +23,7 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 
 # Buttons Overview
 
-### Properties
-
-#### Button Colors
+### Button Colors
 |Name|Class | Background | Color | Border |
 |------|------------|-------|-------|----|
 |Default Button|os-btn | #F5F6F7 | #545658 | none |
@@ -36,7 +34,7 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 |Danger Light Button|os-btn btn-danger-light | #FFFFFF | #AC1B25 | 1px solid #CED1D5 |
 |Link Button| os-btn btn-link | #FFFFFF | #0272A2 | none |
 
-#### Button Size
+### Button Size
 |Name|Class | Height | Mobile Width (@544px) | Font-Size|
 |----|---|------------|---|------|
 |Default Size| os-btn | 34px | 50% | 13px|
@@ -44,7 +42,7 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 |Default Small|os-btn btn-sm | 30px | 20% | 12px|
 |Default Large|os-btn btn-lg | 44px | 100% | 16px|
 
-#### React Props
+### React Props
 
 | Attribute | Type | Default Value | Required | Description |
 |------|----|---|---|---|
@@ -54,7 +52,7 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 |type|string|btn-primary| No | Handles the type or color style of the button|
 |className|string|N/A|No|Appends onto the default button classes|
 
-#### React Code Examples
+### React Code Examples
 
 
 ```js
