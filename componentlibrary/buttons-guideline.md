@@ -52,24 +52,8 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 |type|string|btn-primary| No | Handles the type or color style of the button|
 |className|string|N/A|No|Appends onto the default button classes|
 
+#### React Code Examples
 
-# Primary
-
-#### React Component Options
-
-**Props**
-
-| Attribute | Type | Default Value | Required | Description |
-|------|----|---|---|---|
-|children| node | N/A |No | What will be displayed inside the button|
-|disabled| bool | false | No | Disables the button if set to true|
-|size|string|btn-md| No | Preset size of the button|
-|type|string|btn-primary| No | Handles the type or color style of the button|
-|className|string|N/A|No|Appends onto the default button classes|
-
-#### Code
-
-**React Code**
 
 ```js
     import {Button} from 'component-library';
@@ -94,6 +78,8 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
     <Button size="btn-xs" type="btn-success">Success</Button>
 ```
 
+
+# Primary
 
 ## Default Button
 
@@ -145,7 +131,6 @@ These buttons will be classed as ```os-btn```
 [[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)]
 
 ## Primary Button
-
 
 These buttons will be classed as ```os-btn btn-primary```
 
