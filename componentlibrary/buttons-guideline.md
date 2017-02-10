@@ -83,6 +83,12 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 
 These buttons will be classed as ```os-btn```
 
+### When do we use these?
+
+**Coming Soon**
+
+### Code
+
 **HTML**
 ```html
     <button class='os-btn btn-lg'>Large Button</button>
@@ -132,6 +138,12 @@ These buttons will be classed as ```os-btn```
 
 These buttons will be classed as ```os-btn btn-primary```
 
+### When do we use these?
+
+**Coming Soon**
+
+### Code
+
 **HTML**
 ```html
     <button class='os-btn btn-primary btn-lg'>Large Button</button>
@@ -165,6 +177,12 @@ These buttons will be classed as ```os-btn btn-primary```
 
 These buttons will be classed as ```os-btn btn-success```
 
+### When do we use these?
+
+**Coming Soon**
+
+### Code
+
 **HTML**
 ```html
     <button class='os-btn btn-success btn-lg'>Large Button</button>
@@ -197,6 +215,12 @@ These buttons will be classed as ```os-btn btn-success```
 # Secondary Default Button
 
 This button will be classed ```os-btn btn-secondary```
+
+### When do we use these?
+
+**Coming Soon**
+
+### Code
 
 **HTML**
 ```html
@@ -234,6 +258,12 @@ This button will be classed ```os-btn btn-secondary```
 
 This button will be classed ```os-btn btn-secondary-light```
 
+### When do we use these?
+
+**Coming Soon**
+
+### Code
+
 **HTML**
 ```html
     <button class='os-btn btn-secondary-light btn-lg'>Large Button</button>
@@ -260,6 +290,12 @@ This button will be classed ```os-btn btn-secondary-light```
 
 This button will be classed ```os-btn btn-danger-light```
 
+### When do we use these?
+
+**Coming Soon**
+
+### Code
+
 **HTML**
 ```html
     <button class='os-btn btn-danger-light btn-lg'>Destructive Button</button>
@@ -282,6 +318,12 @@ This button will be classed ```os-btn btn-danger-light```
 # Link Button
 
 This button will be classed ```os-btn btn-link```
+
+### When do we use these?
+
+**Coming Soon**
+
+### Code
 
 **HTML**
 ```html
