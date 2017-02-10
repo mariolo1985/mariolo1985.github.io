@@ -5,20 +5,20 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 **Table of Contents:**
 >- Button Overview  
 >   - [Overview](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-overview)
+>   - [Button Colors](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)
+>   - [Button Sizes](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-size)
 >- Primary
 >    - [Default Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#default-button)
 >    - [Primary Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#primary-button)
 >    - [Success Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#success-button)
->    - [Default Button Colors](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)
->    - [Default Button Sizes](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-size)
+
 >
 >- Secondary 
 >    - [Secondary Default Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#secondary-default-button)
 >    - [Secondary Light Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#secondary-light-button)
 >    - [Danger Light Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#danger-light-button)
 >    - [Link Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#link-button)
->    - [Secondary Button Colors](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)
->
+
 >- Marketing Buttons
 
 # Buttons Overview
