@@ -23,16 +23,6 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 
 ## Properties
 
-#### React Props
-
-| Attribute | Type | Default Value | Required | Description |
-|------|----|---|---|---|
-|children| node | N/A |No | What will be displayed inside the button|
-|disabled| bool | false | No | Disables the button if set to true|
-|size|string|btn-md| No | Preset size of the button|
-|type|string|btn-primary| No | Handles the type or color style of the button|
-|className|string|N/A|No|Appends onto the default button classes|
-
 #### Button Colors
 |Name|Class | Background | Color | Border |
 |------|------------|-------|-------|----|
@@ -51,6 +41,16 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 |Default Extra Small|os-btn btn-xs | 22px | 15% | 11px|
 |Default Small|os-btn btn-sm | 30px | 20% | 12px|
 |Default Large|os-btn btn-lg | 44px | 100% | 16px|
+
+#### React Props
+
+| Attribute | Type | Default Value | Required | Description |
+|------|----|---|---|---|
+|children| node | N/A |No | What will be displayed inside the button|
+|disabled| bool | false | No | Disables the button if set to true|
+|size|string|btn-md| No | Preset size of the button|
+|type|string|btn-primary| No | Handles the type or color style of the button|
+|className|string|N/A|No|Appends onto the default button classes|
 
 
 # Primary
