@@ -81,9 +81,7 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 ```
 
 
-# Primary
-
-## Default Button
+# Default Button
 
 These buttons will be classed as ```os-btn```
 
@@ -129,10 +127,10 @@ These buttons will be classed as ```os-btn```
         }
     }
 ```
-[[primary color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)]
+[[color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)]
 [[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)]
 
-## Primary Button
+# Primary Button
 
 These buttons will be classed as ```os-btn btn-primary```
 
@@ -162,10 +160,10 @@ These buttons will be classed as ```os-btn btn-primary```
         }
     }
 ```
-[[primary color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)]
+[[color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)]
 [[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)]
 
-## Success Button
+# Success Button
 
 These buttons will be classed as ```os-btn btn-success```
 
@@ -195,12 +193,10 @@ These buttons will be classed as ```os-btn btn-success```
         }
     }
 ```
-[[primary color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)]
+[[color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)]
 [[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)]
 
-# Secondary
-
-## Secondary Default Button
+# Secondary Default Button
 
 This button will be classed ```os-btn btn-secondary```
 
@@ -232,11 +228,11 @@ This button will be classed ```os-btn btn-secondary```
         }
     }
 ```
-[[secondary color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)]
+[[color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)]
 [[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)]
 
 
-## Secondary Light Button
+# Secondary Light Button
 
 This button will be classed ```os-btn btn-secondary-light```
 
@@ -259,10 +255,10 @@ This button will be classed ```os-btn btn-secondary-light```
         }
     }
 ```
-[[secondary color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)]
+[[color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)]
 [[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)]
 
-## Danger Light Button
+# Danger Light Button
 
 This button will be classed ```os-btn btn-danger-light```
 
@@ -282,10 +278,10 @@ This button will be classed ```os-btn btn-danger-light```
         }
     }
 ```
-[[secondary color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)]
+[[color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)]
 [[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)]
 
-## Link Button
+# Link Button
 
 This button will be classed ```os-btn btn-link```
 
@@ -310,5 +306,5 @@ This button will be classed ```os-btn btn-link```
         }
     }
 ```
-[[secondary color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors-1)]
+[[color chart](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#button-colors)]
 [[back to top](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-guidelines)]
