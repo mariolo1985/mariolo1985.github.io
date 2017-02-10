@@ -21,6 +21,46 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 
 >- Marketing Buttons
 
+# React Props
+
+| Attribute | Type | Default Value | Required | Description |
+|------|----|---|---|---|
+|children| node | N/A |No | What will be displayed inside the button|
+|disabled| bool | false | No | Disables the button if set to true|
+|size|string|os-btn| No | Preset size of the button|
+|type|string|btn-primary| No | Handles the type or color style of the button|
+|className|string|N/A|No|Appends onto the default button classes|
+
+# React Code Examples
+
+
+```js
+    import {Button} from 'component-library';
+
+    render() {
+        return (
+            <div className="btn-wrapper">
+                <Button size="btn-lg" type="btn-success" className="btn-xxx" onClick={this.testClick}>Hello World</Button>
+
+                <Button size="btn-lg">Default Button</Button>
+                <Button>Default Button</Button>
+                <Button size="btn-sm">Default</Button>
+                <Button size="btn-xs">Default</Button>
+
+                <Button size="btn-lg" type="btn-primary">Primary Button</Button>
+                <Button type="btn-primary">Primary Button</Button>
+                <Button size="btn-sm" type="btn-primary">Primary</Button>
+                <Button size="btn-xs" type="btn-primary">Primary</Button>
+
+                <Button size="btn-lg" type="btn-success">Success Button</Button>
+                <Button size="btn-md" type="btn-success">Success Button</Button>
+                <Button size="btn-sm" type="btn-success">Success</Button>
+                <Button size="btn-xs" type="btn-success">Success</Button>
+            </div>
+        );
+    }
+```
+
 # Buttons Overview
 
 ### Button Colors
@@ -41,43 +81,6 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 |Default Extra Small|os-btn btn-xs | 22px | 15% | 11px|
 |Default Small|os-btn btn-sm | 30px | 20% | 12px|
 |Default Large|os-btn btn-lg | 44px | 100% | 16px|
-
-### React Props
-
-| Attribute | Type | Default Value | Required | Description |
-|------|----|---|---|---|
-|children| node | N/A |No | What will be displayed inside the button|
-|disabled| bool | false | No | Disables the button if set to true|
-|size|string|btn-md| No | Preset size of the button|
-|type|string|btn-primary| No | Handles the type or color style of the button|
-|className|string|N/A|No|Appends onto the default button classes|
-
-### React Code Examples
-
-
-```js
-    import {Button} from 'component-library';
-
-    <Button size="btn-lg" type="btn-success" className="btn-unique" onClick={this.testClick}>
-        Hello World
-    </Button>
-
-    <Button size="btn-lg">Default Button</Button>
-    <Button>Default Button</Button>
-    <Button size="btn-sm">Default</Button>
-    <Button size="btn-xs">Default</Button>
-
-    <Button size="btn-lg" type="btn-primary">Primary Button</Button>
-    <Button type="btn-primary">Primary Button</Button>
-    <Button size="btn-sm" type="btn-primary">Primary</Button>
-    <Button size="btn-xs" type="btn-primary">Primary</Button>
-
-    <Button size="btn-lg" type="btn-success">Success Button</Button>
-    <Button size="btn-md" type="btn-success">Success Button</Button>
-    <Button size="btn-sm" type="btn-success">Success</Button>
-    <Button size="btn-xs" type="btn-success">Success</Button>
-```
-
 
 # Default Button
 
