@@ -23,7 +23,7 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 
 # Buttons Overview
 
-## Properties
+### Properties
 
 #### Button Colors
 |Name|Class | Background | Color | Border |
