@@ -3,6 +3,8 @@
 Visual reference available at [Styleguide - Buttons Page](https://www.overstock.com/styleguide/buttons.html)
 
 **Table of Contents:**
+>- Button Overview  
+>   - [Overview](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#buttons-overview)
 >- Primary
 >    - [Default Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#default-button)
 >    - [Primary Button](https://github.com/mariolo1985/mariolo1985.github.io/blob/master/componentlibrary/buttons-guideline.md#primary-button)
@@ -21,7 +23,7 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 
 # Buttons Overview
 
-## Properties
+### Properties
 
 #### Button Colors
 |Name|Class | Background | Color | Border |
