@@ -21,8 +21,9 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 
 # Buttons Overview
 
-## React
-**Props**
+## Properties
+
+#### React Props
 
 | Attribute | Type | Default Value | Required | Description |
 |------|----|---|---|---|
@@ -31,9 +32,6 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 |size|string|btn-md| No | Preset size of the button|
 |type|string|btn-primary| No | Handles the type or color style of the button|
 |className|string|N/A|No|Appends onto the default button classes|
-
-
-## Primary
 
 #### Button Colors
 |Name|Class | Background | Color | Border |
@@ -54,11 +52,8 @@ Visual reference available at [Styleguide - Buttons Page](https://www.overstock.
 |Default Small|os-btn btn-sm | 30px | 20% | 12px|
 |Default Large|os-btn btn-lg | 44px | 100% | 16px|
 
+
 # Primary
-
-## Default Button
-
-These buttons will be classed as ```os-btn```
 
 #### React Component Options
 
@@ -71,6 +66,8 @@ These buttons will be classed as ```os-btn```
 |size|string|btn-md| No | Preset size of the button|
 |type|string|btn-primary| No | Handles the type or color style of the button|
 |className|string|N/A|No|Appends onto the default button classes|
+
+#### Code
 
 **React Code**
 
@@ -98,7 +95,9 @@ These buttons will be classed as ```os-btn```
 ```
 
 
-#### Code
+## Default Button
+
+These buttons will be classed as ```os-btn```
 
 **HTML**
 ```html
@@ -150,12 +149,7 @@ These buttons will be classed as ```os-btn```
 
 These buttons will be classed as ```os-btn btn-primary```
 
-#### React Options
-
-
-
-#### Code
-
+**HTML**
 ```html
     <button class='os-btn btn-primary btn-lg'>Large Button</button>
     <button class='os-btn btn-primary'>Medium Button</button>
@@ -163,6 +157,7 @@ These buttons will be classed as ```os-btn btn-primary```
     <button class='os-btn btn-primary btn-xs'>Extra</button>
 ```
 
+**LESS**
 ```css
     .os-btn {
         // PRIMARY BUTTON
@@ -187,12 +182,7 @@ These buttons will be classed as ```os-btn btn-primary```
 
 These buttons will be classed as ```os-btn btn-success```
 
-#### React Options
-
-
-
-#### Code
-
+**HTML**
 ```html
     <button class='os-btn btn-success btn-lg'>Large Button</button>
     <button class='os-btn btn-success'>Medium Button</button>
@@ -200,6 +190,7 @@ These buttons will be classed as ```os-btn btn-success```
     <button class='os-btn btn-success btn-xs'>Extra</button>
 ```
 
+**LESS**
 ```css
     .os-btn {
         // SUCCESS
@@ -222,22 +213,11 @@ These buttons will be classed as ```os-btn btn-success```
 
 # Secondary
 
-#### Button Colors
-|Class | Background | Color | Border |
-|------|------------|-------|--------|
-|os-btn btn-secondary | #0272A2 | #545658 | 1px solid #CED1D5 |
-|os-btn btn-secondary-light | #27AE60 | #545658 | 1px solid #CED1D5 |
-|os-btn btn-danger-light | #FFFFFF | #AC1B25 | 1px solid #CED1D5 |
-|os-btn btn-link | #FFFFFF | #0272A2 | none |
-
-
-
 ## Secondary Default Button
 
 This button will be classed ```os-btn btn-secondary```
 
-#### Code 
-
+**HTML**
 ```html
     <button class='os-btn btn-secondary btn-lg'>Large Button</button>
     <button class='os-btn btn-secondary'>Medium Button</button>
@@ -245,6 +225,7 @@ This button will be classed ```os-btn btn-secondary```
     <button class='os-btn btn-secondary btn-xs'>Extra</button>
 ```
 
+**LESS**
 ```css
     .os-btn{
         // SECONDARY
@@ -272,8 +253,7 @@ This button will be classed ```os-btn btn-secondary```
 
 This button will be classed ```os-btn btn-secondary-light```
 
-#### Code 
-
+**HTML**
 ```html
     <button class='os-btn btn-secondary-light btn-lg'>Large Button</button>
     <button class='os-btn btn-secondary-light'>Medium Button</button>
@@ -281,6 +261,7 @@ This button will be classed ```os-btn btn-secondary-light```
     <button class='os-btn btn-secondary-light btn-xs'>Extra</button>
 ```
 
+**LESS**
 ```css
     .os-btn{
         // SECONDARY LIGHT
@@ -298,13 +279,13 @@ This button will be classed ```os-btn btn-secondary-light```
 
 This button will be classed ```os-btn btn-danger-light```
 
-#### Code 
-
+**HTML**
 ```html
     <button class='os-btn btn-danger-light btn-lg'>Destructive Button</button>
     <button class='os-btn btn-danger-light'>Destructive Button</button>
 ```
 
+**LESS**
 ```css
     .os-btn{
         &.btn-danger-light {
@@ -321,8 +302,7 @@ This button will be classed ```os-btn btn-danger-light```
 
 This button will be classed ```os-btn btn-link```
 
-#### Code 
-
+**HTML**
 ```html
     <button class='os-btn btn-link btn-lg'>Link Button</button>
     <button class='os-btn btn-link'>Link Button</button>
@@ -330,6 +310,7 @@ This button will be classed ```os-btn btn-link```
     <button class='os-btn btn-link btn-xs'>Link</button>
 ```
 
+**LESS**
 ```css
     .os-btn{
         // LINK
