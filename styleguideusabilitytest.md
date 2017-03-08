@@ -12,25 +12,30 @@ To determine if we are missing any information a developer will look for and if 
 
 ### DISCUSSION GUIDE
 
-Hi, I am [NAME] and I am conducting a study on styleguides. I am hoping to understand how someone will use a styleguide and the benefits of a styleguide.  
+>Hi, I am [NAME] and I am conducting a study on styleguides. I am hoping to understand how someone will use a styleguide and the benefits of a styleguide.  
 
 - Can you tell me briefly about the styleguides you have used in the past? 
+
 - What did you look for? 
     - What did you use from the styleguide?
+
 - What did you enjoy about using the styleguide?
+
 - What did you least enjoy about using the styleguide?
+
 - What tasks do you usually do with a styleguide?
 
 
 ### Pre-Tasks
 
 1. Can you describe to me what this page is for? (Is it clear what this page does?)
+
 2. 
 
 
 ### Task
 
-Please talk aloud as you go through the following tasks.
+>Please talk aloud as you go through the following tasks.
 
 *Imagine you are starting a new project using a JavaScript framework you have not used before...*
 
