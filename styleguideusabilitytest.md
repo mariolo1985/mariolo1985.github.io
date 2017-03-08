@@ -8,7 +8,7 @@ We are testing to see if there is enough information for a developer to create a
 
 ### PURPOSE 
 
-To determine if we are missing any information a developer will look for and if the information is arranged/served in the correct order
+To determine if we are missing any information a developer will look for and if the information is arranged/served in the correct order.
 
 ### DISCUSSION GUIDE
 
@@ -43,3 +43,5 @@ Please talk aloud as you go through the following tasks.
 - Was there anything you found enjoyable?
 - Was there anything you found not enjoyable?
 - Is there anything you would like to share baout your experience?
+- Was there anything missing you would see on other styleguides?
+- Was it clear to you where to find....
