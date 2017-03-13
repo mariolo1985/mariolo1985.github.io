@@ -12,7 +12,7 @@ To determine if we are missing any information a developer will need and if the 
 
 ### DISCUSSION GUIDE
 
-Hi, I am [NAME] and I am conducting a study on styleguides. I am trying to determine if we are presenting enough information for someone to use our styleguide.
+Hi, I am [NAME] and I am conducting a study on styleguides. I am trying to determine if we are presenting enough information to someone to use our styleguide.
 
 - Can you tell me briefly about how you have used styleguides in the past? 
 
