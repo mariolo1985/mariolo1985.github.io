@@ -36,10 +36,7 @@ Hi, I am [NAME] and I am conducting a study on styleguides. I am trying to deter
 
 - Think back to when you used a styleguide that you did not enjoy using. 
     - What did you not enjoy about this styleguide?
-    - What were you doing?
-    - Where were you?
-    - What were you looking for?
-    - What piece of information did you use?
+
 
 
 ### Pre-Tasks [Styleguide Test Link](https://overstock.invisionapp.com/share/R4APQ5X3U#/screens/222429332)
