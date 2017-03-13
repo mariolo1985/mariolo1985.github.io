@@ -28,7 +28,7 @@ Hi, I am [NAME] and I am conducting a study on styleguides. I am trying to deter
 
 ### Pre-Tasks (Show page)
 
-1. What drew your attention first? What did you notice first?
+1. What did you notice first?
 
 2. Can you describe to me what you think this page is for? (Is it clear what this page does?)
 
@@ -47,7 +47,7 @@ Please talk aloud as you go through the following tasks.
 
 ### Debrief
 
-- How was it completing this task?
+- How did you feel completing this task?
 - Was there anything you found enjoyable?
 - Was there anything you found not enjoyable?
 - Is there anything you would like to share about your experience?
