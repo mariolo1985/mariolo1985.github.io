@@ -4,15 +4,15 @@
 
 ### SCOPE 
 
-We are testing to see if there is enough information for a developer to create a button in their project
+Styleguide dev pages
 
 ### PURPOSE 
 
-To determine if we are missing any information a developer will look for and if the information is arranged/served in the correct order.
+To determine if we are missing any information a developer will need and if the information is arranged in an order of importance.
 
 ### DISCUSSION GUIDE
 
-Hi, I am [NAME] and I am conducting a study on styleguides. I am trying to determine if we are presenting enough information to use the styleguide. 
+Hi, I am [NAME] and I am conducting a study on styleguides. I am trying to determine if we are presenting enough information for someone to use our styleguide.
 
 - Can you tell me briefly about how you have used styleguides in the past? 
 
