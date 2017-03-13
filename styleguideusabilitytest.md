@@ -14,19 +14,35 @@ To determine if we are missing any information a developer will need and if the 
 
 Hi, I am [NAME] and I am conducting a study on styleguides. I am trying to determine if we are presenting enough information to someone to use our styleguide.
 
-- Can you tell me briefly about how you have used styleguides in the past? 
+- What is your name?
 
-- What were you doing?
+- What is your title?
+
+- What is a development framework you enjoy using currently?
+
+- What you were you doing the last time you used a styleguide? 
+
+- Where were you?
 
 - What did you look for?
     - What did you use from the styleguide?
 
-- Think back to when you used a styleguide that you enjoyed. What did you enjoy about using this styleguide?
+- Think back to when you used a styleguide that you enjoyed. 
+    - What did you enjoy about using this styleguide?
+    - What were you doing?
+    - Where were you?
+    - What were you looking for?
+    - What piece of information did you use?
 
-- Think back to when you used a styleguide that you did not enjoy using. What did you not enjoy about this styleguide?
+- Think back to when you used a styleguide that you did not enjoy using. 
+    - What did you not enjoy about this styleguide?
+    - What were you doing?
+    - Where were you?
+    - What were you looking for?
+    - What piece of information did you use?
 
 
-### Pre-Tasks (Show page)
+### Pre-Tasks [Styleguide Test Link](https://overstock.invisionapp.com/share/R4APQ5X3U#/screens/222429332)
 
 1. What did you notice first?
 
