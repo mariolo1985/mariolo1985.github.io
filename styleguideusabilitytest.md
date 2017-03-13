@@ -10,7 +10,7 @@ Styleguide dev pages
 
 To determine if we are missing any information a developer will need and if the information is arranged in an order of importance.
 
-### DISCUSSION GUIDE
+### DISCUSSION
 
 Hi, I am [NAME] and I am conducting a study on styleguides. I am trying to determine if we are presenting enough information to someone to use our styleguide.
 
