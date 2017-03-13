@@ -16,7 +16,7 @@ Hi, I am [NAME] and I am conducting a study on styleguides. I am trying to deter
 
 - What is your name?
 
-- What is your title?
+- What is your job title?
 
 - What is a development framework you enjoy using currently?
 
