@@ -1,5 +1,38 @@
 # MY GOOD THINGS LIST
 
+## GIT
+
+### Naming
+```
+feature/myFeature
+
+bugfix/myBugFix
+
+```
+
+### Retiring WF
+```
+# Create a new "archive" tag for the branch
+
+git tag archive/myAwesomeBranch feature/myAwesomeBranch
+
+# push the new tag to the server
+
+git push origin archive/myAwesomeBranch
+
+# delete the local branch
+
+git branch -d feature/myAwesomeBranch
+
+# delete the remote branch
+
+git push origin --delete feature/myAwesomeBranch
+
+# This "archived" tag can be checked out with:
+
+git checkout archive/myAwesomeBranch
+```
+
 ## HTML
 ### Redirect tag
 ```
