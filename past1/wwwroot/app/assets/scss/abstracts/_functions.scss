@@ -1,0 +1,37 @@
+﻿/// Get a color from the primary color palette.
+/// @access public
+/// @param {String} $key - Key to pull from the Map.
+/// @return {Color}
+/// @require $primary-palette
+@function primary($key) {
+	@return map-get($primary-palette, $key);
+}
+
+/// Get a color from the secondary color palette.
+/// @access public
+/// @param {String} $key - Key to pull from the Map.
+/// @return {Color}
+/// @require $primary-palette
+@function secondary($key) {
+	@return map-get($secondary-palette, $key);
+}
+
+/// Get a color from the gradient color palette.
+/// @access public
+/// @param {String} $key - Key to pull from the Map.
+/// @return {Color}
+/// @require $gradient-palette
+@function gradient($key) {
+    @return map-get($gradient-palette, $key);
+}
+
+/// Strip the unit from the given number.
+/// @access public
+/// @param {Size} $number - Number to remove the unit from.
+/// @return {Size}
+@function strip-unit($number) {
+    @if type-of($number) == 'number' and not unitless($number) {
+        @return $number / ($number * 0 + 1);
+    }
+    @return $number;
+}

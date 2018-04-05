@@ -1,0 +1,19 @@
+﻿@mixin tile {
+	background-color: secondary('1');
+	border: solid 1px secondary('4');
+	margin: 10px 0px;
+}
+
+@mixin dashboard-heading {
+	font-weight: bold;
+	text-transform:uppercase;
+	font-size:14px;
+}
+
+@mixin vendor-prefixes($property, $value...) {
+    -webkit-#{$property}: $value;
+    -moz-#{$property}: $value;
+    -ms-#{$property}: $value;
+    -o-#{$property}: $value;
+    #{$property}: $value;
+}

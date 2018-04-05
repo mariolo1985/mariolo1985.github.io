@@ -1,0 +1,158 @@
+﻿/// Map of primary palette colors.
+/// @type Map
+$primary-palette: ( '1': #004690, // blue
+'2': #002348, // dark blue
+'3': #F0F0F0, // light gray
+'4': #1D3370, // darker blue
+'5': #009CDD, // lighter blue
+'6': #0071BB // light blue
+);
+/// Map of secondary palette colors.
+/// @type Map
+$secondary-palette: ( '1': #f0f0f0, // light gray
+'2': #000, // black
+'3': #363636, // dark gray
+'4': #d7d7d7 // med gray
+);
+$txt-line-height: 100%;
+/// Body text color.
+/// @type Color
+$txt-body: primary('1');
+/// <h1> - <h3> tags color.
+/// @type Color
+$txt-h1-h3: primary('1');
+/// <h4> tag color.
+/// @type Color
+$txt-h4: primary('3');
+/// <a> tag color.
+/// @type Color
+$txt-link: primary('1');
+/// <a> tag color on hover.
+/// @type Color
+$txt-link-hover: primary('2');
+/// Footer section text color.
+/// @type Color
+$txt-footer: secondary('2');
+/// Footer icon color.
+/// @type Color
+$txt-footer-icon: secondary('3');
+/// <label> tag color when in a .form-item element.
+/// @type Color
+$txt-form-item-label: primary('3');
+/// Cancel button background color.
+/// @type Color
+$bg-cancel-btn: primary('1');
+/// Default button background color.
+/// @type Color
+$bg-btn: primary('2');
+/// Default button background color on hover.
+/// @type Color
+$bg-btn-hover: primary('4');
+/// Body background color.
+/// @type Color
+$bg-body: secondary('1');
+/// Header section background color.
+/// @type Color
+$bg-header: secondary('1');
+/// Header section button background color.
+/// @type Color
+$bg-header-btn: primary('5');
+/// Navigation bar background color.
+/// @type Color
+$bg-navigation-bar: secondary('1');
+/// Footer section background color.
+/// @type Color
+$bg-footer: secondary('4');
+/// Secondary navigation background color.
+/// @type Color
+$bg-nav-secondary: primary('2');
+/// Zebra stripe table row background color.
+/// @type Color
+$bg-zebra-stripe: secondary('1');
+$bg-gray: secondary('1');
+$bg-lighter-gray: secondary('2');
+/// Breakpoint for extra-large screens.
+/// @type Size
+$breakpoint-xl-px: 1200px;
+$breakpoint-xl-mq: px-to-rem($breakpoint-xl-px, 16px);
+$breakpoint-xl: px-to-rem($breakpoint-xl-px);
+/// Breakpoint for large screens.
+/// @type Size
+$breakpoint-lg-px: 992px;
+$breakpoint-lg-mq: px-to-rem($breakpoint-lg-px, 16px);
+$breakpoint-lg: px-to-rem($breakpoint-lg-px);
+/// Breakpoint for medium screens.
+/// @type Size
+$breakpoint-md-px: 768px;
+$breakpoint-md-mq: px-to-rem($breakpoint-md-px, 16px);
+$breakpoint-md: px-to-rem($breakpoint-md-px);
+/// Breakpoint for small screens.
+/// @type Size
+$breakpoint-sm-px: 576px;
+$breakpoint-sm-mq: px-to-rem($breakpoint-sm-px, 16px);
+$breakpoint-sm: px-to-rem($breakpoint-sm-px);
+/// Breakpoint for extra-small screens.
+/// @type Size
+$breakpoint-xs-px: 320px;
+$breakpoint-xs-mq: px-to-rem($breakpoint-xs-px, 16px);
+$breakpoint-xs: px-to-rem($breakpoint-xs-px);
+/// Spacing between grid columns.
+/// @type Size
+$grid-spacing: px-to-rem(20px);
+/// Default size for icons.
+/// @type Size
+$icon-size: px-to-rem(14px);
+/// Maximum width of content (excluding things like navigation that are full width.
+/// @type Size
+$max-content-width: px-to-rem(1200px);
+$max-menu-width: px-to-rem(1500px);
+/// Background color for divider elements.
+/// @type Color
+$bg-divider: #ccc;
+$header-height:60px;
+// Footer height
+$footer-height:50px;
+/// Font families to be used in the portal.
+/// @type FontFamily
+$ff-normal: 'Roboto',
+sans-serif;
+$ff-black: 'Roboto',
+sans-serif;
+$ff-bold: 'Roboto',
+sans-serif;
+$ff-bold-italics: 'Roboto',
+sans-serif;
+$ff-light: 'Roboto',
+sans-serif;
+$ff-learner-nav: 'Helvetica',
+sans-serif;
+$learner-nav-width:165px;
+// Usana
+// Font
+$font-family-primary:'HelveticaNeue-Roman',
+'HelveticaNeue',
+'Helvetica',
+'Arial';
+// Color
+$color-txt-body:#444444;
+$color-txt-body-alt:#0073CF;
+$color-input-text-color:#444444;
+$color-input-bg:#FFFFFF;
+$color-input-border: rgba(173, 184, 171, .5);
+$color-input-text-placeholder: #ADB8BF;
+$color-btn-bg:#0073CF;
+$color-btn-text-color: #FFFFFF;
+// Header
+$color-header-logout: #888C8E;
+// Inputs
+$input-font-size:16px;
+$input-font-weight: 300;
+// Catalog
+$color-catalog-item:#9F9F9F;
+$color-catalog-item-title:#444444;
+// Course Catalog
+$color-coursecatalog-wrapper-bg:rgba(238,238,238,.3);
+$color-coursecatalog-header-border: #444444;
+$color-coursecatalog-row-alt:rgba(238,238,238,.5);
+$color-coursecatalog-txt-desc: #B0B0B0;
+$color-coursecatalog-status: #444444;
