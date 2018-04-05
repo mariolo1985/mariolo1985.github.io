@@ -1,0 +1,99 @@
+.nav-container {
+    position: relative;
+}
+
+.nav-branding-wrapper {
+    float: left;
+    .nav-branding-img-wrapper {
+        float: left;
+        .nav-branding-img {
+            margin: 20px 50px 8px 50px;
+        }
+    }
+    .nav-title-wrapper {
+        float: left;
+        .nav-title {
+            margin-top: 52px;
+        }
+    }
+}
+
+.nav-menu-wrapper {
+    float: right;
+    .nav-user {
+        float: left;
+        .nav-username {
+            margin-right: 15px;
+            margin-top: 36px;
+        }
+        .nav-logout {
+            display: block;
+            color: $color-header-logout;
+            font-size: 12px;
+            line-height: 1.75em;
+            text-align: right;
+            margin-right: 15px;
+        }
+    }
+    .nav-user-img {
+        float: left;
+        .btn-nav-user-img {
+            height: 48px;
+            width: 48px;
+            margin-top: 23px;
+            border-radius: 48px;
+            border: none;
+            background-color: $color-btn-bg;
+        }
+    }
+    .nav-action {
+        float: left;
+        .btn-nav-menu {
+            border: none;
+            background: transparent;
+            background-color: #FFFFFF;
+            margin: 43px 53px 0px 34px;
+            outline: none;
+            &:hover svg {
+                fill: $color-btn-bg;
+            }
+        }
+    }
+}
+
+.nav-menu {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    opacity: 0;
+    top: 100%;
+    transition: opacity .5s;
+    &.expand {
+        opacity: 1;
+        transition: opacity .7s;
+        z-index: 100;
+    }
+    .nav-menu-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        .nav-menu-listitem {
+            border: 1px solid #FFFFFF;
+            border-top: none;
+            .nav-menu-link {
+                display: block;
+                color: #FFFFFF;
+                text-decoration: none;
+                font-size: 12px;
+                line-height: 1.5;
+                padding: 14px 22px;
+                background-color: $color-txt-body;
+                opacity: .95;
+                &:hover {
+                    opacity: 1;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

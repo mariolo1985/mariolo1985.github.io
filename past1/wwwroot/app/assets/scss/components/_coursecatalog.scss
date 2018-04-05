@@ -1,0 +1,231 @@
+.divider {
+    border-right: 1px solid #EEEEEE;
+}
+
+.coursecatalog-content-container {
+    position: relative;
+    min-height: 750px;
+}
+
+// Bg image 
+.coursecatalog-content-bg {
+    position: absolute;
+    background: url('../../../content/images/catalog_bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .2;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+// Content 
+.coursecatalog-content-wrapper {
+    position: relative;
+    padding: 15px 113px;
+    z-index: 20;
+    background: $color-coursecatalog-wrapper-bg;
+}
+
+// content header
+.coursecatalog-header-wrapper {
+    padding-bottom: 5px;
+    border-bottom: 2px solid $color-coursecatalog-header-border;
+}
+
+.coursecatalog-header-title {
+    float: left;
+    font-size: 28px;
+    font-weight: 600;
+    color: $color-txt-body-alt;
+}
+
+.coursecatalog-search-wrapper {
+    float: right;
+    .searchbox-pad-helper {
+        float: left;
+        width: 85%;
+    }
+    .btn-course-search {
+        float: left;
+        width: 15%;
+        background: transparent;
+        border: none;
+        svg {
+            transform: rotatey(180deg);
+        }
+    }
+    input {
+        height: 32px;
+        width: 100%;
+        font-size: $input-font-size;
+        font-weight: $input-font-weight;
+        color: $color-input-text-color;
+        padding: 5px 10px;
+        background-color: $color-input-bg;
+        border: 1px solid $color-input-border;
+        box-sizing: border-box;
+        &::placeholder {
+            color: $color-input-text-placeholder;
+        }
+    }
+}
+
+//***** Paging *****
+.coursecatalog-course-pager {
+    padding-top: 5px;
+}
+
+.coursecatalog-course-filter {
+    float: left;
+    width: 50%;
+    .coursecatalog-filter-label {
+        font-weight: 600;
+        color: $color-txt-body-alt;
+        margin-left: 15px;
+    }
+    .coursecatalog-course-page-select {
+        margin-left: 10px;
+    }
+}
+
+.coursecatalog-course-paging {
+    float: left;
+    width: 50%;
+    text-align: right;
+    .btn-coursecatalog-page {
+        border: none;
+        background: transparent;
+        &:hover {
+            color: $color-txt-body-alt;
+        }
+        &.disabled {
+            opacity: .5;
+            &:hover {
+                color: inherit;
+            }
+        }
+    }
+}
+
+// ***** Table *****
+.coursecatalog-table {
+    display: table;
+}
+
+.coursecatalog-table-row {
+    position: relative;
+    z-index: 1;
+    display: table-row;
+}
+
+.coursecatalog-table-description,
+.coursecatalog-course-description {
+    display: table-cell;
+    width: 90%;
+    padding: 15px;
+}
+
+.coursecatalog-table-status,
+.coursecatalog-course-status {
+    display: table-cell;
+    width: 10%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+.coursecatalog-table-row:nth-of-type(2n+1) {
+    background: $color-coursecatalog-row-alt;
+}
+
+// Header
+.coursecatalog-table-header {
+    font-weight: 600;
+}
+
+// item description
+.course-icon,
+.course-title,
+.course-title-divider,
+.course-description {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.course-icon {
+    padding-right: 15px;
+    &.highlight svg {
+        fill: $color-txt-body-alt;
+    }
+}
+
+.course-title {
+    font-weight: 600;
+}
+
+.course-title-divider {
+    width: 15px;
+    text-align: center;
+}
+
+.course-description {
+    font-weight: 300;
+    color: $color-coursecatalog-txt-desc;
+}
+
+// status
+.coursecatalog-item-status {
+    margin: 0 auto;
+}
+
+.coursecatalog-item-status.status-incomplete {
+    position: relative;
+    height: 21px;
+    width: 21px;
+    .status-incomplete-front {
+        position: absolute;
+        bottom: 0;
+        height: 11px;
+        width: 21px;
+        border-radius: 0 0 21px 21px;
+        background-color: $color-coursecatalog-status;
+    }
+    .status-incomplete-back {
+        position: absolute;
+        height: 19px;
+        width: 19px;
+        border: 1px solid $color-coursecatalog-status;
+        border-radius: 19px;
+    }
+}
+
+.coursecatalog-item-status.status-notstarted {
+    height: 19px;
+    width: 19px;
+    border-radius: 19px;
+    border: 1px solid $color-coursecatalog-status;
+}
+
+.coursecatalog-item-status.status-completed {
+    height: 19px;
+    width: 19px;
+    border-radius: 19px;
+    background-color: $color-coursecatalog-status;
+}
+
+// Catalog border
+.coursecatalog-table {
+    position: relative;
+    width: 100%;
+    .coursecatalog-border {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 10%;
+        height: 100%;
+        border-left: 1px solid #EEEEEE;
+        margin-right: 15px;
+        z-index: 1;
+    }
+}

@@ -1,0 +1,19 @@
+﻿html, body {
+    height: 100%;
+    margin:0;
+    padding:0;
+    font-family:$font-family-primary;
+    color:$color-txt-body;    
+}
+
+// Helpers
+.clear:before,
+.clear:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+button{
+    cursor:pointer;
+}
