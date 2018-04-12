@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="aefb41d6-1c07-4d7c-ac44-4dff0ac3cb06" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="TrainingRequest.Common.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+</Solution>

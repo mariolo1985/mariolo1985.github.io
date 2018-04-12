@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Training Request WF" Description="Routes Training Request to completion" Id="a1ca925c-1efd-4a8e-9202-7ec0e8feabec" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="TrainingMaterialsWF\Elements.xml" />
+    <ElementManifest Location="ReviewTaskCT\Elements.xml" />
+    <ElementManifest Location="AssignTaskCT\Elements.xml" />
+  </ElementManifests>
+</Feature>

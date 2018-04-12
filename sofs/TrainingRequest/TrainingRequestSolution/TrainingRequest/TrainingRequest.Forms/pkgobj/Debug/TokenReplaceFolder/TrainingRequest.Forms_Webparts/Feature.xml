@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Training request webparts" Id="3e2fc85f-3fbb-4739-90f8-7a99f5dd0183" Scope="Site" Title="TrainingRequest.Forms Webparts">
+  <ElementManifests>
+    <ElementManifest Location="NewRequestButton\Elements.xml" />
+    <ElementFile Location="NewRequestButton\NewRequestButton.webpart" />
+  </ElementManifests>
+</Feature>

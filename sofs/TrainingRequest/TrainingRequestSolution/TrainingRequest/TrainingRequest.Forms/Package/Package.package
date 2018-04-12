@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="6ea9f2c4-d3e8-406c-bce2-18c1771f9bca" solutionId="6ea9f2c4-d3e8-406c-bce2-18c1771f9bca" resetWebServer="false" sharePointProductVersion="15.0" name="TrainingRequest.Forms" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="0375b6eb-8b89-4c6d-8785-4a390831cbb2" />
+    <featureReference itemId="5ac63209-32a8-4803-85c4-da86b1feec71" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="dd8c1fb2-dbc7-4a0d-91a8-b7759f203cd1" />
+    <projectItemReference itemId="2323eb66-b80f-4105-9262-6063ba1f89bf" />
+  </projectItems>
+</package>

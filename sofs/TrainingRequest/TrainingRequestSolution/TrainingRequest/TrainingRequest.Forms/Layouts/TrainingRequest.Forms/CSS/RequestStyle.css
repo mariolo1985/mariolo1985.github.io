@@ -1,0 +1,53 @@
+﻿.requestField { width: 100%; padding: 5px 5px; }
+.requestLabel { font-weight: bold; }
+.requestTextbox { width: 95%; display: block; }
+.requestDropdownlist { width: 50%; }
+.requestTextbox, .requestDropdownlist { clear: both; }
+.requestButton { margin: 0px 5px; width: 100px; }
+
+/* New Request page specific */
+.requiredAsterisk { color: red; }
+
+#div_dept { padding: 5px 5px; }
+    #div_dept > div > div { display: inline-block; }
+    #div_dept > label { display: block; }
+#div_addDeptBox, #div_removeDeptBox { width: 38%; }
+#div_addDeptBtn { vertical-align: middle; }
+
+.addDeptBtn { margin: 5px 10px; width: 120px; }
+.requestListbox { width: 100%; height: 150px; }
+
+#div_confirm { text-align: center; }
+.confirmMsg { color: red; }
+
+/* Request page specific */
+.sectionHeader { text-align: center; padding: 5px 0px; background-color: rgb(51,155,222); margin: 5px 0px; }
+    .sectionHeader h3 { font-weight: bold; color: white; }
+
+.requestMenu { width: 100%; }
+.menuItem { }
+.menuButton { width: 100%; border: none; background-color: rgb(51,155,222); font-weight: bold; color: white; margin-left: 0px !important; }
+    .menuButton:hover { background-color: darkblue; }
+
+.requestData { }
+
+.activeTab { }
+.inactiveTab { }
+
+/* Nwe Request assignment page*/
+.peNewTaskUser { width: 75%; }
+
+/* Global specific */
+.clear { clear: both; height: 1px; }
+#div_request, #div_confirm { width: 650px; border-width: 1px; margin: 5px 0px 0px 5px; }
+#div_buttons { text-align: right; margin: 5px 5px; }
+.requestHeader { padding: 10px 5px; font-weight: bold; text-align: center; text-decoration: underline; }
+
+h2, input, select, label, textarea, button, option { font-family: Arial, Helvetica; }
+
+/* TEMP */
+.temp { }
+
+
+.tblNewRequestAttachment { width: 100%; }
+    .tblNewRequestAttachment th { text-align: left; }

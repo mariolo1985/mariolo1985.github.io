@@ -1,0 +1,56 @@
+﻿.o-pd-filters
+{
+    padding: 10px;
+}
+
+.o-pd-partners table tr td
+{
+    padding: 5px;
+}
+
+.o-pd-alternate
+{
+    background-color: #FFF;
+}
+
+.o-pd-heading
+{
+    background-color: #CCC;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;    
+    padding: 0 5px;
+}
+
+.o-pd-thumbnail
+{
+    width: 20px;
+}
+
+.o-pd-thumbnail img
+{
+    border: 0px;
+}
+
+.o-pd-title, .o-pd-url, .o-pd-users
+{
+    padding: 0 5px;
+}
+
+.o-pd-number
+{
+    text-align: center;
+}
+
+.o-pd-new
+{
+    padding: 0 5px;
+}
+
+.o-pd-new img
+{
+    height: 14px;
+    width: 14px;
+    padding-right: 5px;
+    margin-bottom: -2px;
+}

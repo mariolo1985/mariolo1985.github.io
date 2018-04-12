@@ -1,0 +1,4 @@
+C:\Users\Administrator\documents\visual studio 2012\Projects\TrainingRequest\TrainingRequest.Branding\bin\Debug\TrainingRequest.Branding.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\TrainingRequest\TrainingRequest.Branding\bin\Debug\TrainingRequest.Branding.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\TrainingRequest\TrainingRequest.Branding\obj\Debug\TrainingRequest.Branding.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\TrainingRequest\TrainingRequest.Branding\obj\Debug\TrainingRequest.Branding.pdb
