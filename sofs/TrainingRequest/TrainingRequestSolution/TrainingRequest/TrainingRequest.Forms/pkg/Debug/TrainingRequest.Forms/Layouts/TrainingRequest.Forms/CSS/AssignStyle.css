@@ -1,0 +1,22 @@
+﻿.requestField { width: 100%; padding: 5px 5px; }
+.requestLabel { font-weight: bold; }
+.requestTextbox { width: 95%; display: block; border: none !important; float: right; }
+.requestDropdownlist { width: 50%; }
+.requestTextbox, .requestDropdownlist { clear: both; }
+.requestButton { margin: 0px 5px; width: 100px; }
+
+
+
+/* Global specific */
+.clear { clear: both; height: 1px; }
+#div_request { width: 650px; border: none; margin: 5px 0px 0px 5px; }
+#div_buttons { text-align: right; margin: 5px 5px; }
+.requestHeader { padding: 10px 5px; font-weight: bold; text-align: center; text-decoration: underline; }
+
+h2, input, select, label, textarea, button, option { font-family: Arial, Helvetica; }
+
+/* TEMP */
+.temp { }
+
+
+.peNewTaskUser { }

@@ -1,0 +1,10 @@
+C:\Users\mlo\Documents\Projects\MLO\TrainingRequest\TrainingRequestCore\TRCore\TRCore\bin\Debug\TRCore.dll
+C:\Users\mlo\Documents\Projects\MLO\TrainingRequest\TrainingRequestCore\TRCore\TRCore\bin\Debug\TRCore.pdb
+C:\Users\mlo\Documents\Projects\MLO\TrainingRequest\TrainingRequestCore\TRCore\TRCore\obj\Debug\TRCore.dll
+C:\Users\mlo\Documents\Projects\MLO\TrainingRequest\TrainingRequestCore\TRCore\TRCore\obj\Debug\TRCore.pdb
+C:\Users\mlo\Documents\Projects\MLO\TrainingRequest\TrainingRequestCore\TRCore\TRCore\obj\Debug\TRCore.csprojResolveAssemblyReference.cache
+C:\Users\kinfonglo\Documents\Projects\TrainingRequest\TrainingRequestFormProject\TrainingRequest\TrainingRequestCore\TRCore\TRCore\bin\Release\TRCore.dll
+C:\Users\kinfonglo\Documents\Projects\TrainingRequest\TrainingRequestFormProject\TrainingRequest\TrainingRequestCore\TRCore\TRCore\bin\Release\TRCore.pdb
+C:\Users\kinfonglo\Documents\Projects\TrainingRequest\TrainingRequestFormProject\TrainingRequest\TrainingRequestCore\TRCore\TRCore\obj\Debug\TRCore.dll
+C:\Users\kinfonglo\Documents\Projects\TrainingRequest\TrainingRequestFormProject\TrainingRequest\TrainingRequestCore\TRCore\TRCore\obj\Debug\TRCore.pdb
+C:\Users\kinfonglo\Documents\Projects\TrainingRequest\TrainingRequestFormProject\TrainingRequest\TrainingRequestCore\TRCore\TRCore\obj\Debug\TRCore.csprojResolveAssemblyReference.cache

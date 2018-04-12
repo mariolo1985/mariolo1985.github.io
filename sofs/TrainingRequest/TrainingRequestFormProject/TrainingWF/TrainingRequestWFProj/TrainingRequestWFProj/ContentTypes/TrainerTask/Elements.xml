@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Task (0x0108) -->
+  <ContentType ID="0x01080100891C94F913CF460F8E6DD8EF2B83A3C3" Name="TrainerTask" Group="Custom Content Types" Description="A task for the trainer to complete" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{53101f38-dd2e-458c-b245-0c236cc13d1a}" DisplayName="$Resources:core,Assigned_To;" Name="AssignedTo" />
+      <FieldRef ID="{1DAB9B48-2D1A-47b3-878C-8E84F0D211BA}" DisplayName="$Resources:core,Status;" Name="_Status" />
+    </FieldRefs>
+    <XmlDocuments>
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url">
+        <FormUrls xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url">
+          <Display>_layouts/workflow.trainingrequest/Pages/TrainingTask.aspx?TaskType=trainer</Display>
+          <Edit>_layouts/workflow.trainingrequest/Pages/TrainingTask.aspx?TaskType=trainer</Edit>
+          <New>_layouts/workflow.trainingrequest/Pages/TrainingTask.aspx?TaskType=trainer</New>
+        </FormUrls>
+      </XmlDocument>
+    </XmlDocuments>
+  </ContentType>
+</Elements>

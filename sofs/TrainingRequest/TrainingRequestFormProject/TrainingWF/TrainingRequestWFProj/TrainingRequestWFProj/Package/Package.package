@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="a78cb956-5af3-453d-9bb5-6737144fb529" solutionId="a78cb956-5af3-453d-9bb5-6737144fb529" resetWebServer="false" name="TrainingRequestWFProj" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="60164ed4-9228-49cc-af8a-185ba05efbb5" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="927dc0ae-15c0-44b1-a225-fdfd482ccc82" />
+    <projectItemReference itemId="83b10855-5d54-40e2-aa42-14c3b210fc59" />
+  </projectItems>
+</package>

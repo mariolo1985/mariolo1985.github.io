@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema targetNamespace="http://schemas.microsoft.com/office/infopath/2003/myXSD/2013-11-15T19:36:11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2013-11-15T19:36:11" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="myFields">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:Core" minOccurs="0"/>
+				<xsd:element ref="my:SystemInternal" minOccurs="0"/>
+				<xsd:element ref="my:FormInternal" minOccurs="0"/>
+				<xsd:element ref="my:Admin" minOccurs="0"/>
+				<xsd:element ref="my:FieldSouce" minOccurs="0"/>
+				<xsd:element ref="my:HaveYouSection" minOccurs="0"/>
+				<xsd:element ref="my:Debug" minOccurs="0"/>
+			</xsd:sequence>
+			<xsd:anyAttribute processContents="lax" namespace="http://www.w3.org/XML/1998/namespace"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Core">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:RequestTitle" minOccurs="0"/>
+				<xsd:element ref="my:RequestType" minOccurs="0"/>
+				<xsd:element ref="my:Department" minOccurs="0"/>
+				<xsd:element ref="my:PlannedTrainingSection" minOccurs="0"/>
+				<xsd:element ref="my:TrainingAttachments" minOccurs="0"/>
+				<xsd:element ref="my:RelatedDocumentSection" minOccurs="0"/>
+				<xsd:element ref="my:NotesSection" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RequestTitle" type="xsd:string"/>
+	<xsd:element name="RequestType" type="xsd:string"/>
+	<xsd:element name="Department" type="xsd:string"/>
+	<xsd:element name="PlannedTrainingSection">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:PlannedTraining" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="PlannedTraining" type="xsd:string"/>
+	<xsd:element name="TrainingAttachments">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:TrainingAttachmentObj" minOccurs="0"/>
+				<xsd:element ref="my:TrainingAttachmentSection" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="TrainingAttachmentObj" nillable="true" type="xsd:base64Binary"/>
+	<xsd:element name="TrainingAttachmentSection">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:TrainingAttachmentGroup" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="TrainingAttachmentGroup">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:TrainingAttachmentName" minOccurs="0"/>
+				<xsd:element ref="my:TrainingAttachmentURL" minOccurs="0"/>
+				<xsd:element ref="my:TrainingAttachmentVersion" minOccurs="0"/>
+				<xsd:element ref="my:TrainingAttachmentRemove" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="TrainingAttachmentName" type="xsd:string"/>
+	<xsd:element name="TrainingAttachmentURL" type="xsd:string"/>
+	<xsd:element name="TrainingAttachmentVersion" type="xsd:string"/>
+	<xsd:element name="TrainingAttachmentRemove" type="xsd:string"/>
+	<xsd:element name="RelatedDocumentSection">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:RDPath" minOccurs="0"/>
+				<xsd:element ref="my:RelatedDocumentGroup" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RDPath" type="xsd:string"/>
+	<xsd:element name="RelatedDocumentGroup">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:RelatedDocumentPath" minOccurs="0"/>
+				<xsd:element ref="my:RelatedDocumentHyperlink" minOccurs="0"/>
+				<xsd:element ref="my:RelatedDocumentRemove" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RelatedDocumentPath" type="xsd:string"/>
+	<xsd:element name="RelatedDocumentHyperlink" type="xsd:anyURI"/>
+	<xsd:element name="RelatedDocumentRemove" type="xsd:string"/>
+	<xsd:element name="NotesSection">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:Notes" minOccurs="0"/>
+				<xsd:element ref="my:NotesHistory" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Notes" type="xsd:string"/>
+	<xsd:element name="NotesHistory" type="xsd:string"/>
+	<xsd:element name="SystemInternal">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:FormGUID" minOccurs="0"/>
+				<xsd:element ref="my:FormName" minOccurs="0"/>
+				<xsd:element ref="my:UserMessage" minOccurs="0"/>
+				<xsd:element ref="my:PreviousView" minOccurs="0"/>
+				<xsd:element ref="my:SaveLocation" minOccurs="0"/>
+				<xsd:element ref="my:HideReturnBtn" minOccurs="0"/>
+				<xsd:element ref="my:FormWFStageNum" minOccurs="0"/>
+				<xsd:element ref="my:RemoveType" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="FormGUID" type="xsd:string"/>
+	<xsd:element name="FormName" type="xsd:string"/>
+	<xsd:element name="UserMessage" type="xsd:string"/>
+	<xsd:element name="PreviousView" type="xsd:string"/>
+	<xsd:element name="SaveLocation" type="xsd:string"/>
+	<xsd:element name="HideReturnBtn" type="xsd:string"/>
+	<xsd:element name="FormWFStageNum" type="xsd:string"/>
+	<xsd:element name="RemoveType" type="xsd:string"/>
+	<xsd:element name="FormInternal">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:LifecycleStatus" minOccurs="0"/>
+				<xsd:element ref="my:TaskOwnerId" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="LifecycleStatus" type="xsd:string"/>
+	<xsd:element name="TaskOwnerId" type="xsd:string"/>
+	<xsd:element name="Admin">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:IsTaskOwner" minOccurs="0"/>
+				<xsd:element ref="my:IsAdminGroup" minOccurs="0"/>
+				<xsd:element ref="my:AdminGroup" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="IsTaskOwner" type="xsd:string"/>
+	<xsd:element name="IsAdminGroup" type="xsd:string"/>
+	<xsd:element name="AdminGroup" type="xsd:string"/>
+	<xsd:element name="FieldSouce">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:RequestTypeSection" minOccurs="0"/>
+				<xsd:element ref="my:DepartmentSection" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RequestTypeSection">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:RequestTypeGroup" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RequestTypeGroup">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:RequestTypeValue" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RequestTypeValue" type="xsd:string"/>
+	<xsd:element name="DepartmentSection">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:DepartmentGroup" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DepartmentGroup">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:DepartmentValue" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DepartmentValue" type="xsd:string"/>
+	<xsd:element name="HaveYouSection">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:Haveyoumessage" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Haveyoumessage" type="xsd:string"/>
+	<xsd:element name="Debug">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:DebugMessage" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DebugMessage" type="xsd:string"/>
+</xsd:schema>

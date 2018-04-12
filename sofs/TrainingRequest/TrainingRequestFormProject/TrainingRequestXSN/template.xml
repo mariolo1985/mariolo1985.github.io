@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-infoPathSolution name="urn:schemas-microsoft-com:office:infopath:TrainingRequestXSN:-myXSD-2013-11-15T19-36-11" href="manifest.xsf" solutionVersion="1.0.0.192" productVersion="14.0.0" PIVersion="1.0.0.0" ?>
+<?mso-application progid="InfoPath.Document" versionProgid="InfoPath.Document.3"?>
+<?mso-infoPath-file-attachment-present?>
+<my:myFields xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2013-11-15T19:36:11" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<my:Core>
+		<my:RequestTitle></my:RequestTitle>
+		<my:RequestType></my:RequestType>
+		<my:Department></my:Department>
+		<my:PlannedTrainingSection>
+			<my:PlannedTraining>FALSE</my:PlannedTraining>
+		</my:PlannedTrainingSection>
+		<my:TrainingAttachments>
+			<my:TrainingAttachmentObj xsi:nil="true"></my:TrainingAttachmentObj>
+			<my:TrainingAttachmentSection>
+				<my:TrainingAttachmentGroup>
+					<my:TrainingAttachmentName></my:TrainingAttachmentName>
+					<my:TrainingAttachmentURL></my:TrainingAttachmentURL>
+					<my:TrainingAttachmentVersion></my:TrainingAttachmentVersion>
+					<my:TrainingAttachmentRemove>FALSE</my:TrainingAttachmentRemove>
+				</my:TrainingAttachmentGroup>
+			</my:TrainingAttachmentSection>
+		</my:TrainingAttachments>
+		<my:RelatedDocumentSection>
+			<my:RDPath></my:RDPath>
+			<my:RelatedDocumentGroup>
+				<my:RelatedDocumentPath></my:RelatedDocumentPath>
+				<my:RelatedDocumentHyperlink></my:RelatedDocumentHyperlink>
+				<my:RelatedDocumentRemove>FALSE</my:RelatedDocumentRemove>
+			</my:RelatedDocumentGroup>
+		</my:RelatedDocumentSection>
+		<my:NotesSection>
+			<my:Notes></my:Notes>
+			<my:NotesHistory></my:NotesHistory>
+		</my:NotesSection>
+	</my:Core>
+	<my:SystemInternal>
+		<my:FormGUID></my:FormGUID>
+		<my:FormName></my:FormName>
+		<my:UserMessage></my:UserMessage>
+		<my:PreviousView></my:PreviousView>
+		<my:SaveLocation></my:SaveLocation>
+		<my:HideReturnBtn>FALSE</my:HideReturnBtn>
+		<my:FormWFStageNum>0</my:FormWFStageNum>
+		<my:RemoveType></my:RemoveType>
+	</my:SystemInternal>
+	<my:FormInternal>
+		<my:LifecycleStatus>New</my:LifecycleStatus>
+		<my:TaskOwnerId></my:TaskOwnerId>
+	</my:FormInternal>
+	<my:Admin>
+		<my:IsTaskOwner></my:IsTaskOwner>
+		<my:IsAdminGroup></my:IsAdminGroup>
+		<my:AdminGroup></my:AdminGroup>
+	</my:Admin>
+	<my:FieldSouce>
+		<my:RequestTypeSection>
+			<my:RequestTypeGroup>
+				<my:RequestTypeValue></my:RequestTypeValue>
+			</my:RequestTypeGroup>
+		</my:RequestTypeSection>
+		<my:DepartmentSection>
+			<my:DepartmentGroup>
+				<my:DepartmentValue></my:DepartmentValue>
+			</my:DepartmentGroup>
+		</my:DepartmentSection>
+	</my:FieldSouce>
+	<my:HaveYouSection>
+		<my:Haveyoumessage></my:Haveyoumessage>
+	</my:HaveYouSection>
+	<my:Debug>
+		<my:DebugMessage></my:DebugMessage>
+	</my:Debug>
+</my:myFields>

@@ -1,0 +1,56 @@
+﻿/* GENERAL STYLES */
+
+/* SECTION STYLES */
+.divParentHide {
+    display: none;
+}
+
+.divParentShow {
+    display: block;
+}
+
+.Header {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.ErrorMessage {
+    font-weight: bold;
+    color: red;
+    padding: 10px 0px 10px 0px;
+}
+
+#tblTaskSection th {
+    text-align: left;
+}
+
+#tblTaskSection td {
+    padding: 0px 0px 0px 10px;
+}
+
+#tblTaskSection {
+    padding-bottom: 10px;
+}
+/* BUTTON STYLES */
+.buttonAssign {
+    background-color: limegreen;
+}
+
+.buttonCancel {
+    background-color: red;
+}
+
+.buttonAssign, .buttonCancel {
+    font-weight: bold;
+    color: white;
+}
+
+button :disabled {
+    font-weight: bold;
+    color: gray;
+}
+
+button :enabled {
+    font-weight: bold;
+    color: white;
+}
