@@ -1,4 +1,0 @@
-C:\Users\Administrator\documents\visual studio 2012\Projects\TrainingRequest\TrainingRequest.Admin\bin\Debug\TrainingRequest.Admin.dll
-C:\Users\Administrator\documents\visual studio 2012\Projects\TrainingRequest\TrainingRequest.Admin\bin\Debug\TrainingRequest.Admin.pdb
-C:\Users\Administrator\documents\visual studio 2012\Projects\TrainingRequest\TrainingRequest.Admin\obj\Debug\TrainingRequest.Admin.dll
-C:\Users\Administrator\documents\visual studio 2012\Projects\TrainingRequest\TrainingRequest.Admin\obj\Debug\TrainingRequest.Admin.pdb

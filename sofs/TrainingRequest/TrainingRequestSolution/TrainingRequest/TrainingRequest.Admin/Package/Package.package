@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<package dslVersion="1.0.0.0" 
-        Id="f19b8d36-db84-4ce4-9a90-e4b5dd317350" 
-        solutionId="f19b8d36-db84-4ce4-9a90-e4b5dd317350" 
-        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
-        name="TrainingRequest.Admin"
-        sharePointProductVersion="15.0">
-</package>

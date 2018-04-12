@@ -1,5 +1,0 @@
-C:\Users\Administrator\documents\visual studio 2012\Projects\TrainingRequest\TrainingRequest.Forms\bin\Debug\TrainingRequest.Forms.dll
-C:\Users\Administrator\documents\visual studio 2012\Projects\TrainingRequest\TrainingRequest.Forms\bin\Debug\TrainingRequest.Forms.pdb
-C:\Users\Administrator\documents\visual studio 2012\Projects\TrainingRequest\TrainingRequest.Forms\obj\Debug\TrainingRequest.Forms.csprojResolveAssemblyReference.cache
-C:\Users\Administrator\documents\visual studio 2012\Projects\TrainingRequest\TrainingRequest.Forms\obj\Debug\TrainingRequest.Forms.dll
-C:\Users\Administrator\documents\visual studio 2012\Projects\TrainingRequest\TrainingRequest.Forms\obj\Debug\TrainingRequest.Forms.pdb

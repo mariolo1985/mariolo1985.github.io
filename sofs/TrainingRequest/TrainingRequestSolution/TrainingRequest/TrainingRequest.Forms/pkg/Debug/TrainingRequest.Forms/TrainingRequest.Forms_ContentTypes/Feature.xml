@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Training Request Content Types" Id="b6ed188f-3071-406c-af17-b34734d77f61" Scope="Web" Title="TrainingRequest.Forms Content Type">
-  <ElementManifests>
-    <ElementManifest Location="Training_NewRequestAssign_ct\Elements.xml" />
-    <ElementManifest Location="Training_NewRequest_ct\Elements.xml" />
-    <ElementManifest Location="Training_PendingRequest_ct\Elements.xml" />
-    <ElementManifest Location="Training_DisplayRequest_ct\Elements.xml" />
-  </ElementManifests>
-</Feature>

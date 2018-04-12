@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<package dslVersion="1.0.0.0" 
-        Id="50bf0d1d-b971-4ec8-beb0-1effca316496" 
-        solutionId="50bf0d1d-b971-4ec8-beb0-1effca316496" 
-        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
-        name="TrainingRequest.Branding"
-        sharePointProductVersion="15.0">
-</package>

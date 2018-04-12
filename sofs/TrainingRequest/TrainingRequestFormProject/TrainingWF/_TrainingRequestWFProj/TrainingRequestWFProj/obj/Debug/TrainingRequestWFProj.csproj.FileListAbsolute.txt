@@ -1,4 +1,0 @@
-C:\Users\mlo\Documents\Visual Studio 2012\Projects\TrainingRequestWFProj\TrainingRequestWFProj\bin\Debug\TrainingRequestWFProj.dll
-C:\Users\mlo\Documents\Visual Studio 2012\Projects\TrainingRequestWFProj\TrainingRequestWFProj\bin\Debug\TrainingRequestWFProj.pdb
-C:\Users\mlo\Documents\Visual Studio 2012\Projects\TrainingRequestWFProj\TrainingRequestWFProj\obj\Debug\TrainingRequestWFProj.dll
-C:\Users\mlo\Documents\Visual Studio 2012\Projects\TrainingRequestWFProj\TrainingRequestWFProj\obj\Debug\TrainingRequestWFProj.pdb
