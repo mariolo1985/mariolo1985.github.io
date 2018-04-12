@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
-  <Module Name="CompanySettings" List="113" Url="_catalogs/wp">
-    <File Path="CompanySettings\CompanySettings.webpart" Url="Px.SelfService_CompanySettings.webpart" Type="GhostableInLibrary" >
-      <Property Name="Group" Value="Custom" />
-    </File>
-  </Module>
-</Elements>

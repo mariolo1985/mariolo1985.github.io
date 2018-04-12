@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="a1ca925c-1efd-4a8e-9202-7ec0e8feabec" description="Routes Training Request to completion" featureId="a1ca925c-1efd-4a8e-9202-7ec0e8feabec" imageUrl="" scope="Site" solutionId="00000000-0000-0000-0000-000000000000" title="Training Request WF" version="" deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel">
-  <projectItems>
-    <projectItemReference itemId="3b3609ad-215c-476b-bc25-ad162e98735e" />
-    <projectItemReference itemId="f1f65f9c-80c8-42b7-81bd-a4d5252e16d3" />
-    <projectItemReference itemId="010dfc28-5398-413b-b195-e0f852bda07b" />
-  </projectItems>
-</feature>
