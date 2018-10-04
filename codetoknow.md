@@ -49,12 +49,13 @@ window.location.replace(...) is better than using window.location.href, because 
 
     If you want to simulate an HTTP redirect, use location.replace
 
-
+```javascript
 // similar behavior as an HTTP redirect
 window.location.replace("http://stackoverflow.com");
 
 // similar behavior as clicking on a link
 window.location.href = "http://stackoverflow.com";
+```
 
 ## JAVASCRIPT
 ### Do not calc length for comparsion in for/while loops. Calc length first.
