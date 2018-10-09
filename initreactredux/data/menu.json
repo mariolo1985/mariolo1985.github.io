@@ -1,0 +1,46 @@
+{
+    "services": [
+        {
+            "name": "Services 1",
+            "tagline": "Here is what we do",
+            "url": "/services1.html"
+        },
+        {
+            "name": "Services 2",
+            "tagline": "Here is what we do",
+            "url": "/services1.html"
+        },
+        {
+            "name": "Services 3",
+            "tagline": "Here is what we do",
+            "url": "/services1.html"
+        }
+    ],
+    "contact": [
+        {
+            "name": "Contact 1",
+            "tagline": "Who am I?",
+            "url": "/contact1.html"
+        },
+        {
+            "name": "Contact 2",
+            "tagline": "Who am I?",
+            "url": "/contact1.html"
+        },
+        {
+            "name": "Contact 3",
+            "tagline": "Who am I?",
+            "url": "/contact1.html"
+        }
+    ],
+    "clients": [
+        {
+            "name": "Client 1",
+            "url": "https://websitesbymario.com"
+        },
+        {
+            "name": "Client 2",
+            "url": "https://mkworldsolutions.com"
+        }
+    ]
+}
